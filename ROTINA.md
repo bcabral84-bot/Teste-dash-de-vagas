@@ -3,7 +3,7 @@
 Este arquivo é a instrução que a varredura automática segue. Ela roda nos dias úteis às 6h51 (horário de Brasília), numa sessão nova do Claude Code, a partir deste repositório. Leia tudo antes de começar.
 
 - Página: https://claude.ai/artifact/WDrJso7tYKhUayddT4fV49 (privada, do dono da conta)
-- Banco da página: coleções `jobs`, `companies`, `benchmarks`, `meta` (docs `fx`, `termometro`, `coleta`) e `data/users/<id>` (área privada de cada pessoa: nunca leia, escreva ou apague nada ali)
+- Banco da página: coleções `jobs`, `companies`, `benchmarks`, `meta` (docs `fx`, `termometro`, `coleta`, `ajustes`) e `data/users/<id>` (área privada de cada pessoa: nunca leia, escreva ou apague nada ali)
 - Especificação completa: `docs/especificacao.md`
 
 ## Regras que não mudam
@@ -24,7 +24,16 @@ git pull --ff-only
 mkdir -p /tmp/banco && rm -rf /tmp/banco/*
 ```
 
-Exporte as vagas do banco com `ArtifactData` `list`, coleção `jobs`, `query.limit` 1000, `out_dir` `/tmp/banco`. Guarde a lista de versões que a resposta mostra (uma linha por documento, "version N"): você vai precisar dela no passo 5.
+Exporte do banco com `ArtifactData` `list`, `query.limit` 1000, `out_dir` `/tmp/banco`:
+
+- coleção `jobs`: guarde a lista de versões que a resposta mostra (uma linha por documento, "version N"), você vai precisar dela no passo 5;
+- coleção `meta`: traz `meta/ajustes` (a curadoria guardada no banco) e as versões de `termometro`, `coleta` e `ajustes`.
+
+Depois una a curadoria do banco com a do repositório:
+
+```bash
+python3 scripts/mesclar_ajustes.py /tmp/banco
+```
 
 ### 2. Coletar
 
@@ -84,9 +93,15 @@ Revise as referências salariais (`data/referencias.json` e coleção `benchmark
 
 ### 9. Salvar a curadoria
 
+Sempre grave `data/ajustes.json` inteiro em `meta/ajustes` com `set` e o `if_version` do passo 1 (sem versão se o documento ainda não existir). É assim que as exclusões chegam à próxima varredura mesmo se o push falhar.
+
+Depois tente salvar no repositório também:
+
 ```bash
 git add data/ && git commit -m "Varredura <AAAA-MM-DD>: <n> novas, <m> encerradas" && git push origin HEAD
 ```
+
+Se o push for recusado, siga em frente e cite isso no relatório. Mudanças em `data/empresas.json` só ficam salvas com o push: nesse caso liste no relatório as empresas que entraram, para o dono incluir depois.
 
 ### 10. Relatório final
 

@@ -134,7 +134,7 @@ Calculada pelo coletor (`data/funcoes.json`) e ajustável na curadoria (`data/aj
 
 **`benchmarks/<função>`**: `range, avg, variable, source, url, order`.
 
-**`meta/fx`**: `usdbrl, date, source`. **`meta/termometro`**: `at, companies{<id>: {brJobs, oficial, himalayas}}`. **`meta/coleta`**: `date, novas, vistas, oficial, agregador, encerradas, atualizadas, fontes`.
+**`meta/fx`**: `usdbrl, date, source`. **`meta/termometro`**: `at, companies{<id>: {brJobs, oficial, himalayas}}`. **`meta/coleta`**: `date, novas, vistas, oficial, agregador, encerradas, atualizadas, fontes`. **`meta/ajustes`**: cópia de `data/ajustes.json` (curadoria), para a rotina não depender do push no git.
 
 **`data/users/<id>/job_<jobId>`**: `stage, at`. **`data/users/<id>/co_<companyId>`**: `list, prio ("A" ou "B"), slots{rec,ta,del,pmo,par: {status, name, url, at}}, at`. Ninguém além da própria pessoa lê isso, nem o dono da página.
 

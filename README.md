@@ -13,6 +13,7 @@ Vagas remotas abertas a quem mora no Brasil em empresas e clientes dos EUA e da 
 | `site/banco-vagas.html` | Código da página publicada |
 | `scripts/coletor.py` | Lê quadros oficiais e Himalayas, filtra por função e elegibilidade, compara com o banco |
 | `scripts/preparar_lote.py` | Aplica a curadoria e gera os lotes de gravação no banco |
+| `scripts/mesclar_ajustes.py` | Junta a curadoria guardada no banco com a do repositório |
 | `data/empresas.json` | Base de empresas (90 em 13/10/2026) com quadros públicos de vagas |
 | `data/funcoes.json` | Regras de função, aderência e termos de busca |
 | `data/referencias.json` | Correspondência de títulos para a referência salarial |
