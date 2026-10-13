@@ -1,0 +1,1227 @@
+{
+  "jobs": {
+    "j01": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Gerente de Projetos de TI",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/gerente-de-projetos-de-ti-sal%C3%A1rio-SRCH_KO0,25.htm",
+          "value": "R$ 8 a 15 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 53,5 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "IT Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/it-project-manager-salary-SRCH_KO0,18.htm",
+          "value": "US$ 128,9 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Power Digital",
+      "companyId": "power-digital",
+      "contract": "Tempo integral",
+      "elig": "Brasil ou Colômbia, remoto",
+      "english": "Inglês C1+",
+      "market": "intl",
+      "note": "Pede 3+ anos de experiência.",
+      "posted": "2026-10-11",
+      "role": "PM",
+      "status": "ativa",
+      "title": "IT Project Manager (CTO's Operating Partner)",
+      "url": "https://boards.greenhouse.io/powerdigitalmarketing/jobs/5262670007"
+    },
+    "j02": {
+      "bench": {
+        "co": {
+          "brl": "≈ R$ 38,6 mil/mês",
+          "n": 14,
+          "src": "Indeed",
+          "title": "Hyland, Project Manager nos EUA",
+          "url": "https://www.indeed.com/cmp/Hyland-4",
+          "value": "US$ 92,9 mil/ano"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Gerente de Projetos de TI",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/gerente-de-projetos-de-ti-sal%C3%A1rio-SRCH_KO0,25.htm",
+          "value": "R$ 8 a 15 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 53,5 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "IT Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/it-project-manager-salary-SRCH_KO0,18.htm",
+          "value": "US$ 128,9 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Hyland",
+      "companyId": "hyland",
+      "contract": "CLT",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "",
+      "posted": "2026-10-11",
+      "role": "PM",
+      "status": "ativa",
+      "title": "IT Project Manager",
+      "url": "https://careers-hyland.icims.com/jobs/14509/it-project-manager/job"
+    },
+    "j03": {
+      "bench": {
+        "co": {
+          "brl": "≈ R$ 55,4 mil/mês",
+          "n": 3,
+          "src": "Indeed",
+          "title": "Salesforce, Delivery Manager nos EUA",
+          "url": "https://www.indeed.com/cmp/Salesforce",
+          "value": "US$ 133,4 mil/ano"
+        },
+        "pos": {
+          "n": 14,
+          "src": "Glassdoor Brasil",
+          "title": "Senior Delivery Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/senior-delivery-manager-sal%C3%A1rio-SRCH_KO0,23.htm",
+          "value": "R$ 16 a 29 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 50,7 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Delivery Manager",
+          "url": "https://www.glassdoor.com/Salaries/delivery-manager-salary-SRCH_KO0,16.htm",
+          "value": "US$ 122,1 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Salesforce",
+      "companyId": "salesforce",
+      "contract": "Tempo integral",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "PMP, Agile/Scrum ou ITIL contam pontos. Experiência com bancos públicos é diferencial.",
+      "posted": "2026-10-08",
+      "role": "DM",
+      "seniority": "Sênior",
+      "status": "ativa",
+      "title": "Senior Engagement Delivery Manager",
+      "url": "https://salesforce.wd12.myworkdayjobs.com/external_career_site/job/brazil---remote/engagement-delivery-senior-manager_jr361061"
+    },
+    "j04": {
+      "bench": {
+        "co": {
+          "brl": "≈ R$ 55,4 mil/mês",
+          "n": 3,
+          "src": "Indeed",
+          "title": "Salesforce, Delivery Manager nos EUA",
+          "url": "https://www.indeed.com/cmp/Salesforce",
+          "value": "US$ 133,4 mil/ano"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Engagement Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/engagement-manager-sal%C3%A1rio-SRCH_KO0,18.htm",
+          "value": "R$ 18 a 36 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 97,2 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Engagement Manager",
+          "url": "https://www.glassdoor.com/Salaries/engagement-manager-salary-SRCH_KO0,18.htm",
+          "value": "US$ 234,1 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Salesforce",
+      "companyId": "salesforce",
+      "contract": "",
+      "elig": "Brasil",
+      "english": "",
+      "market": "intl",
+      "note": "Vista em agregador. Confirme no site da Salesforce antes de se candidatar.",
+      "posted": "2026-10-04",
+      "role": "DM",
+      "seniority": "Diretoria",
+      "status": "conferir",
+      "title": "Engagement Delivery Director",
+      "url": "https://himalayas.app/companies/salesforce/jobs/engagement-delivery-director-7649152327"
+    },
+    "j05": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 47,
+          "src": "Glassdoor Brasil",
+          "title": "Technical Project Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/technical-project-manager-sal%C3%A1rio-SRCH_KO0,25.htm",
+          "value": "R$ 10 a 15 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 56,9 mil/mês",
+          "src": "Glassdoor EUA",
+          "title": "Technical Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/technical-project-manager-salary-SRCH_KO0,25.htm",
+          "value": "US$ 137,1 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Bluelight Consulting",
+      "companyId": "bluelight",
+      "contract": "Tempo integral, horário dos EUA",
+      "elig": "Brasil, remoto",
+      "english": "Inglês fluente",
+      "market": "intl",
+      "note": "5+ anos gerindo projetos de software. PMP, CSM ou PSM são diferenciais.",
+      "posted": "2026-10-12",
+      "role": "PM",
+      "status": "ativa",
+      "title": "Project Manager (Software Development), Remote LATAM",
+      "url": "https://himalayas.app/companies/bluelight-consulting/jobs/project-manager-software-development-remote-latin-america-8255508216"
+    },
+    "j06": {
+      "bench": {
+        "co": {
+          "n": 6,
+          "src": "Indeed",
+          "title": "Capgemini, Gerente de Projetos no Brasil",
+          "url": "https://br.indeed.com/cmp/Capgemini/salaries/Gerente-de-Projetos",
+          "value": "R$ 13,7 mil/mês"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Program Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/program-manager-sal%C3%A1rio-SRCH_KO0,15.htm",
+          "value": "R$ 9 a 17 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 51,3 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Program Manager",
+          "url": "https://www.glassdoor.com/Salaries/program-manager-salary-SRCH_KO0,15.htm",
+          "value": "US$ 123,5 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Capgemini",
+      "companyId": "capgemini",
+      "contract": "Tempo integral",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "Pede Python, SQL e experiência prática com dados, gerindo times nearshore e offshore.",
+      "posted": "2026-10-07",
+      "role": "PGM",
+      "status": "ativa",
+      "title": "Data Program Manager",
+      "url": "https://apply.workable.com/capgemini-insurance/j/C9B6333F2A"
+    },
+    "j07": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 14,
+          "src": "Glassdoor Brasil",
+          "title": "Senior Delivery Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/senior-delivery-manager-sal%C3%A1rio-SRCH_KO0,23.htm",
+          "value": "R$ 16 a 29 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 50,7 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Delivery Manager",
+          "url": "https://www.glassdoor.com/Salaries/delivery-manager-salary-SRCH_KO0,16.htm",
+          "value": "US$ 122,1 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Dev.Pro",
+      "companyId": "dev-pro",
+      "contract": "Tempo integral",
+      "elig": "Brasil ou Argentina, remoto",
+      "english": "Inglês upper-intermediate+",
+      "market": "intl",
+      "note": "Liderança de 100+ pessoas, SAFe, orçamento e P&L; 3 a 4 viagens internacionais por ano.",
+      "posted": "2026-08-17",
+      "role": "DM",
+      "seniority": "Sênior",
+      "status": "conferir",
+      "title": "Senior Delivery Manager",
+      "url": "https://apply.workable.com/devpro/j/09FAC976D2"
+    },
+    "j08": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Gerente de Projetos",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/gerente-de-projetos-sal%C3%A1rio-SRCH_KO0,19.htm",
+          "value": "R$ 8 a 17 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 53,5 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "IT Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/it-project-manager-salary-SRCH_KO0,18.htm",
+          "value": "US$ 128,9 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Dev.Pro",
+      "companyId": "dev-pro",
+      "contract": "Tempo integral",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "Banco de talentos para Project Manager.",
+      "posted": "2026-09-22",
+      "role": "PM",
+      "status": "ativa",
+      "title": "Project Manager (Career Opportunities)",
+      "url": "https://himalayas.app/companies/dev-pro/jobs/project-manager-career-opportunities-at-dev-pro-01"
+    },
+    "j09": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Senior Project Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/senior-project-manager-sal%C3%A1rio-SRCH_KO0,22.htm",
+          "value": "R$ 11 a 18 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 46,0 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Digital Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/digital-project-manager-salary-SRCH_KO0,23.htm",
+          "value": "US$ 110,9 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Fueled",
+      "companyId": "fueled",
+      "contract": "Tempo integral",
+      "elig": "LATAM, remoto (Brasil não citado)",
+      "english": "Inglês",
+      "market": "intl",
+      "note": "Preferência declarada por candidatos na LATAM, em fuso das Américas.",
+      "posted": "2026-10-07",
+      "role": "PM",
+      "seniority": "Sênior",
+      "status": "ativa",
+      "title": "Senior Digital Project Manager, LATAM",
+      "url": "https://job-boards.greenhouse.io/fueledcareers/jobs/5190253008"
+    },
+    "j10": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Senior Project Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/senior-project-manager-sal%C3%A1rio-SRCH_KO0,22.htm",
+          "value": "R$ 11 a 18 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 53,5 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "IT Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/it-project-manager-salary-SRCH_KO0,18.htm",
+          "value": "US$ 128,9 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Atmosera",
+      "companyId": "atmosera",
+      "contract": "Contrato por prazo determinado",
+      "elig": "LATAM, remoto",
+      "english": "Inglês e espanhol",
+      "market": "intl",
+      "note": "Pede espanhol profissional e 10+ anos como gerente de projetos.",
+      "posted": "2026-10-03",
+      "role": "PM",
+      "seniority": "Sênior",
+      "status": "ativa",
+      "title": "Senior Project Manager (Remote LATAM)",
+      "url": "https://jobs.lever.co/atmosera/f820dfad-2be3-463a-b1f0-deab541b8bac"
+    },
+    "j11": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Program Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/program-manager-sal%C3%A1rio-SRCH_KO0,15.htm",
+          "value": "R$ 9 a 17 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 51,3 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Program Manager",
+          "url": "https://www.glassdoor.com/Salaries/program-manager-salary-SRCH_KO0,15.htm",
+          "value": "US$ 123,5 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "phData",
+      "companyId": "phdata",
+      "contract": "Tempo integral",
+      "elig": "LATAM, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "5+ anos em gestão de programas técnicos, com cliente.",
+      "posted": "2026-09-02",
+      "role": "PGM",
+      "status": "conferir",
+      "title": "Program Manager, AI & Data",
+      "url": "https://boards.greenhouse.io/phdata/jobs/8082685"
+    },
+    "j12": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 47,
+          "src": "Glassdoor Brasil",
+          "title": "Technical Project Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/technical-project-manager-sal%C3%A1rio-SRCH_KO0,25.htm",
+          "value": "R$ 10 a 15 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 56,9 mil/mês",
+          "src": "Glassdoor EUA",
+          "title": "Technical Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/technical-project-manager-salary-SRCH_KO0,25.htm",
+          "value": "US$ 137,1 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Nortal",
+      "companyId": "nortal",
+      "contract": "Tempo integral",
+      "elig": "LATAM, remoto, salário em USD",
+      "english": "Inglês avançado",
+      "market": "intl",
+      "note": "Clientes americanos em setores regulados. Mais de 60 dias no ar.",
+      "posted": "2026-08-04",
+      "role": "PM",
+      "status": "conferir",
+      "title": "Technical Project Manager",
+      "url": "https://boards.greenhouse.io/nortal/jobs/5201047007"
+    },
+    "j13": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 17,
+          "src": "Glassdoor Brasil",
+          "title": "Digital Project Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/digital-project-manager-sal%C3%A1rio-SRCH_KO0,23.htm",
+          "value": "R$ 5 a 19 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 46,0 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Digital Project Manager",
+          "url": "https://www.glassdoor.com/Salaries/digital-project-manager-salary-SRCH_KO0,23.htm",
+          "value": "US$ 110,9 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Clients Blackbox",
+      "companyId": "",
+      "contract": "Contrato, US$ 24 a 36 mil/ano",
+      "elig": "Brasil, Argentina e outros, remoto",
+      "english": "Inglês excelente",
+      "market": "intl",
+      "note": "Agência de marketing para consultores de investimento (RIAs).",
+      "posted": "2026-09-26",
+      "role": "PM",
+      "salary": "US$ 24 a 36 mil por ano",
+      "salaryBRL": "cerca de R$ 10,0 a 14,9 mil/mês em contrato",
+      "status": "ativa",
+      "title": "Digital Project Manager",
+      "url": "https://apply.workable.com/clients-blackbox-inc/j/C46E0528CA"
+    },
+    "j14": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Delivery Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/delivery-manager-sal%C3%A1rio-SRCH_KO0,16.htm",
+          "value": "R$ 12 a 18 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 50,7 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Delivery Manager",
+          "url": "https://www.glassdoor.com/Salaries/delivery-manager-salary-SRCH_KO0,16.htm",
+          "value": "US$ 122,1 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Progress Partners",
+      "companyId": "",
+      "contract": "Tempo integral",
+      "elig": "Qualquer país, fuso CET ±4h",
+      "english": "Inglês profissional",
+      "market": "intl",
+      "note": "Fuso europeu: o Brasil fica no limite (4h atrás de CET). Pede 7+ anos em delivery de software.",
+      "posted": "2026-09-19",
+      "role": "DM",
+      "seniority": "Sênior",
+      "status": "ativa",
+      "title": "Technical Delivery Manager",
+      "url": "https://jobs.ashbyhq.com/progress-partners/60240b2d-86d0-4e7e-a0a5-fa4fab0dfb9d"
+    },
+    "j15": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Program Manager",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/program-manager-sal%C3%A1rio-SRCH_KO0,15.htm",
+          "value": "R$ 9 a 17 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 51,3 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Program Manager",
+          "url": "https://www.glassdoor.com/Salaries/program-manager-salary-SRCH_KO0,15.htm",
+          "value": "US$ 123,5 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Darkroom",
+      "companyId": "",
+      "contract": "",
+      "elig": "Brasil ou Portugal, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "Agência de marketing de crescimento. Vista em agregador.",
+      "posted": "2026-09-15",
+      "role": "PGM",
+      "status": "conferir",
+      "title": "Program Manager",
+      "url": "https://www.remoterocketship.com/company/darkroom/jobs/program-manager-brazil-remote/"
+    },
+    "j16": {
+      "bench": {
+        "co": {
+          "n": 5,
+          "src": "Indeed",
+          "title": "CI&T, Scrum Master no Brasil",
+          "url": "https://br.indeed.com/cmp/Ci&T",
+          "value": "R$ 10,7 mil/mês"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/scrum-master-sal%C3%A1rio-SRCH_KO0,12.htm",
+          "value": "R$ 6 a 9 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 52,9 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com/Salaries/scrum-master-salary-SRCH_KO0,12.htm",
+          "value": "US$ 127,6 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "CI&T",
+      "companyId": "ciandt",
+      "contract": "CLT",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "intl",
+      "note": "CI&T aloca em contas da América do Norte. Confira também o quadro oficial no Lever.",
+      "posted": "2026-09-10",
+      "role": "SM",
+      "status": "ativa",
+      "title": "Líder de Squad / Scrum Master (Vaga 31568)",
+      "url": "https://www.remoterocketship.com/br/empresa/ciandt/vagas/lider-de-squad-scrum-master-brasil-remoto/"
+    },
+    "j17": {
+      "bench": {
+        "co": {
+          "n": 20,
+          "src": "Indeed",
+          "title": "BairesDev, Gerente de Projetos no Brasil",
+          "url": "https://br.indeed.com/cmp/Bairesdev/salaries",
+          "value": "R$ 14,8 mil/mês"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/scrum-master-sal%C3%A1rio-SRCH_KO0,12.htm",
+          "value": "R$ 6 a 9 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 52,9 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com/Salaries/scrum-master-salary-SRCH_KO0,12.htm",
+          "value": "US$ 127,6 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "BairesDev",
+      "companyId": "bairesdev",
+      "contract": "Contractor, pago em USD",
+      "elig": "Brasil, remoto",
+      "english": "Inglês avançado",
+      "market": "intl",
+      "note": "Vaga de fluxo contínuo, para projetos internacionais.",
+      "posted": "",
+      "role": "SM",
+      "status": "ativa",
+      "title": "Scrum Master, trabalho remoto",
+      "url": "https://talent.bairesdev.com/pt/vagas/scrum-master-remote"
+    },
+    "j18": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Agile Coach",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/agile-coach-sal%C3%A1rio-SRCH_KO0,11.htm",
+          "value": "R$ 10 a 14 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 79,0 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Agile Coach",
+          "url": "https://www.glassdoor.com/Salaries/agile-coach-salary-SRCH_KO0,11.htm",
+          "value": "US$ 190,4 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Globant",
+      "companyId": "globant",
+      "contract": "CLT",
+      "elig": "São Paulo, híbrido",
+      "english": "Inglês C1",
+      "market": "intl",
+      "note": "Pede PSM, CSM ou PMI-ACP, além de SAFe e KCP.",
+      "posted": "",
+      "role": "AC",
+      "seniority": "Expert",
+      "status": "ativa",
+      "title": "Team Agilist (Expert)",
+      "url": "https://career.globant.com/job/Sao-Paulo-Team-Agilist-Brasil-Sao/548013417"
+    },
+    "j19": {
+      "bench": {
+        "co": {
+          "brl": "≈ R$ 40,4 mil/mês",
+          "n": 11,
+          "src": "Indeed",
+          "title": "Insight Global, Scrum Master nos EUA",
+          "url": "https://www.indeed.com/cmp/Insight-Global",
+          "value": "US$ 50,69/hora"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Scrum Master Sênior",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/scrum-master-senior-sal%C3%A1rio-SRCH_KO0,19.htm",
+          "value": "R$ 9 a 12 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 52,9 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com/Salaries/scrum-master-salary-SRCH_KO0,12.htm",
+          "value": "US$ 127,6 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Insight Global",
+      "companyId": "insight-global",
+      "contract": "Contrato, US$ 30 a 37/h",
+      "elig": "LATAM, remoto, horário EST",
+      "english": "Inglês fluente",
+      "market": "intl",
+      "note": "Cliente biofarmacêutico global. Pede Azure DevOps e ambiente regulado (GxP). Pode ter encerrado em 27/09.",
+      "posted": "2026-07-24",
+      "role": "DM",
+      "salary": "US$ 30 a 37 por hora (estimativa do anúncio)",
+      "salaryBRL": "cerca de R$ 23,9 a 29,5 mil/mês em contrato",
+      "status": "conferir",
+      "title": "Agile Delivery Manager / Scrum Master (Remote INTL)",
+      "url": "https://jobs.insightglobal.com/find_a_job/alaska/job-556293/"
+    },
+    "j20": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Scrum Master Sênior",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/scrum-master-senior-sal%C3%A1rio-SRCH_KO0,19.htm",
+          "value": "R$ 9 a 12 mil/mês"
+        },
+        "us": {
+          "brl": "≈ R$ 52,9 mil/mês",
+          "n": 50,
+          "src": "Glassdoor EUA",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com/Salaries/scrum-master-salary-SRCH_KO0,12.htm",
+          "value": "US$ 127,6 mil/ano"
+        }
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Salesforce",
+      "companyId": "salesforce",
+      "contract": "",
+      "elig": "Brasil (confirmar)",
+      "english": "",
+      "market": "intl",
+      "note": "Vista em agregador sem localização explícita. Confirme no site da Salesforce.",
+      "posted": "2026-09-16",
+      "role": "SM",
+      "seniority": "Sênior",
+      "status": "conferir",
+      "title": "Senior Scrum Master",
+      "url": "https://himalayas.app/companies/salesforce/jobs/senior-scrum-master"
+    },
+    "j21": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 25,
+          "src": "Glassdoor Brasil",
+          "title": "Delivery Lead",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/delivery-lead-sal%C3%A1rio-SRCH_KO0,13.htm",
+          "value": "R$ 10 a 20 mil/mês"
+        },
+        "us": null
+      },
+      "checkedAt": "2026-10-12",
+      "company": "SysMap Solutions",
+      "companyId": "",
+      "contract": "",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "br",
+      "note": "",
+      "posted": "2026-10-08",
+      "role": "DM",
+      "status": "ativa",
+      "title": "Delivery Lead",
+      "url": "https://www.remoterocketship.com/company/sysmap-solutions-ai/jobs/delivery-lead-worldwide-remote/"
+    },
+    "j22": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Gerente de Projetos de TI",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/gerente-de-projetos-de-ti-sal%C3%A1rio-SRCH_KO0,25.htm",
+          "value": "R$ 8 a 15 mil/mês"
+        },
+        "us": null
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Keep IT Simple",
+      "companyId": "",
+      "contract": "",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "br",
+      "note": "",
+      "posted": "2026-09-28",
+      "role": "DM",
+      "status": "ativa",
+      "title": "IT Project and Delivery Manager",
+      "url": "https://www.remoterocketship.com/company/kiscc/jobs/it-project-and-delivery-manager-brazil-remote/"
+    },
+    "j23": {
+      "bench": {
+        "co": null,
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Agile Coach",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/agile-coach-sal%C3%A1rio-SRCH_KO0,11.htm",
+          "value": "R$ 10 a 14 mil/mês"
+        },
+        "us": null
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Sinqia",
+      "companyId": "",
+      "contract": "",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "br",
+      "note": "Software para o mercado financeiro.",
+      "posted": "2026-09-29",
+      "role": "AC",
+      "seniority": "Pleno",
+      "status": "ativa",
+      "title": "PMO / Agile Coach Pleno",
+      "url": "https://www.remoterocketship.com/br/empresa/sinqia-com-br/vagas/pmo-agile-coach-brasil-remoto/"
+    },
+    "j24": {
+      "bench": {
+        "co": {
+          "n": 5,
+          "src": "Indeed",
+          "title": "Stefanini, Scrum Master no Brasil",
+          "url": "https://br.indeed.com/cmp/Stefanini",
+          "value": "R$ 5,0 mil/mês"
+        },
+        "pos": {
+          "n": 50,
+          "src": "Glassdoor Brasil",
+          "title": "Scrum Master",
+          "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/scrum-master-sal%C3%A1rio-SRCH_KO0,12.htm",
+          "value": "R$ 6 a 9 mil/mês"
+        },
+        "us": null
+      },
+      "checkedAt": "2026-10-12",
+      "company": "Stefanini",
+      "companyId": "stefanini",
+      "contract": "",
+      "elig": "Brasil, remoto",
+      "english": "",
+      "market": "br",
+      "note": "",
+      "posted": "2026-10-05",
+      "role": "SM",
+      "status": "ativa",
+      "title": "Scrum Master / Product Owner, Dados",
+      "url": "https://www.remoterocketship.com/br/empresa/stefanini-3/vagas/scrum-master-product-owner-dados-brasil-remoto/"
+    }
+  },
+  "companies": {
+    "agileengine": {
+      "careersUrl": "https://join.agileengine.com/brazil/",
+      "category": "Nearshore",
+      "hires": "Brasil, remoto",
+      "hq": "EUA",
+      "model": "Tempo integral remoto",
+      "name": "AgileEngine",
+      "order": 18,
+      "roles": [
+        "PM",
+        "DM"
+      ],
+      "size": "Média",
+      "why": "Diz que o Brasil é um dos principais mercados de contratação e que todo time tem um Delivery ou Project Manager."
+    },
+    "arctouch": {
+      "careersUrl": "https://arctouch.com/careers",
+      "category": "Nearshore",
+      "hires": "Brasil (Florianópolis e remoto)",
+      "hq": "San Francisco, CA (EUA)",
+      "model": "CLT, contas norte-americanas",
+      "name": "ArcTouch",
+      "order": 21,
+      "roles": [
+        "PM",
+        "SM"
+      ],
+      "size": "Média",
+      "why": "Tem o cargo de Agile Project Manager na estrutura. Porta menor, mas cultura americana direta."
+    },
+    "atmosera": {
+      "careersUrl": "https://jobs.lever.co/atmosera",
+      "category": "Serviços de TI",
+      "hires": "LATAM, remoto (pede espanhol)",
+      "hq": "EUA",
+      "model": "Contrato por prazo determinado",
+      "name": "Atmosera",
+      "order": 23,
+      "roles": [
+        "PM"
+      ],
+      "size": "Pequena",
+      "why": "Serviços gerenciados de nuvem com clientes no mundo todo. Serve para quem tem espanhol além do inglês."
+    },
+    "avenue-code": {
+      "careersUrl": "https://www.linkedin.com/company/avenuecode/jobs",
+      "category": "Consultoria",
+      "hires": "Brasil (São Paulo e Belo Horizonte)",
+      "hq": "San Francisco, CA (EUA)",
+      "model": "CLT ou PJ, conforme a conta",
+      "name": "Avenue Code",
+      "order": 9,
+      "roles": [
+        "SM",
+        "PM",
+        "DM"
+      ],
+      "size": "Média",
+      "why": "Existe para alocar times do Brasil em clientes americanos. Hoje parte do grupo AI/R Compass UOL."
+    },
+    "bairesdev": {
+      "careersUrl": "https://talent.bairesdev.com/pt/vagas/scrum-master-remote",
+      "category": "Nearshore",
+      "hires": "Brasil, 100% remoto",
+      "hq": "San Francisco, CA (EUA)",
+      "model": "Contractor, pagamento em USD",
+      "name": "BairesDev",
+      "order": 2,
+      "roles": [
+        "SM",
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Uma das maiores portas de entrada da LATAM para clientes dos EUA. Processo bem estruturado e em volume."
+    },
+    "bluelight": {
+      "careersUrl": "https://himalayas.app/companies/bluelight-consulting",
+      "category": "Nearshore",
+      "hires": "Brasil e LATAM, remoto",
+      "hq": "EUA",
+      "model": "Tempo integral, horário dos EUA",
+      "name": "Bluelight Consulting",
+      "order": 13,
+      "roles": [
+        "PM"
+      ],
+      "size": "Média",
+      "why": "Nearshore no fuso americano com vagas recorrentes de Project Manager para quem está no Brasil."
+    },
+    "capgemini": {
+      "careersUrl": "https://apply.workable.com/capgemini-insurance/",
+      "category": "Consultoria",
+      "hires": "Brasil, remoto",
+      "hq": "Paris (França), grande operação nos EUA",
+      "model": "CLT, clientes de seguros nos EUA",
+      "name": "Capgemini",
+      "order": 6,
+      "roles": [
+        "PGM",
+        "PM",
+        "SM"
+      ],
+      "size": "Grande",
+      "why": "A unidade de seguros contrata gestores remotos no Brasil para seguradoras americanas."
+    },
+    "ciandt": {
+      "careersUrl": "https://jobs.lever.co/ciandt",
+      "category": "Consultoria",
+      "hires": "Brasil, remoto e híbrido",
+      "hq": "Campinas, SP",
+      "model": "CLT, alocado em contas da América do Norte",
+      "name": "CI&T",
+      "order": 3,
+      "roles": [
+        "SM",
+        "AC",
+        "DM"
+      ],
+      "size": "Grande",
+      "why": "Cerca de 40% da receita vem da América do Norte. Usa o título Squad Leader para o papel de agilidade e delivery."
+    },
+    "dev-pro": {
+      "careersUrl": "https://apply.workable.com/devpro/",
+      "category": "Nearshore",
+      "hires": "Brasil e Argentina, remoto",
+      "hq": "EUA (empresa 99,9% remota)",
+      "model": "Tempo integral remoto",
+      "name": "Dev.Pro",
+      "order": 12,
+      "roles": [
+        "PM",
+        "DM",
+        "SM"
+      ],
+      "size": "Média",
+      "why": "Recruta ativamente no Brasil para clientes de tecnologia, de Project Manager a Senior Delivery Manager."
+    },
+    "encora": {
+      "careersUrl": "https://job-boards.greenhouse.io/encora10",
+      "category": "Nearshore",
+      "hires": "Brasil (Campinas e São Paulo)",
+      "hq": "Scottsdale, AZ (EUA)",
+      "model": "CLT, alocado em conta internacional",
+      "name": "Encora",
+      "order": 8,
+      "roles": [
+        "SM",
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Nearshore para clientes dos EUA, comprada pela Coforge em 2026. Reorganização costuma abrir vagas de delivery."
+    },
+    "epam": {
+      "careersUrl": "https://careers.epam.com/en/jobs",
+      "category": "Consultoria",
+      "hires": "Brasil (confirmar vaga a vaga)",
+      "hq": "Newtown, PA (EUA)",
+      "model": "Remoto pelo programa EPAM Anywhere",
+      "name": "EPAM Systems",
+      "order": 7,
+      "roles": [
+        "SM",
+        "RTE",
+        "DM"
+      ],
+      "size": "Grande",
+      "why": "Engenharia de software para clientes americanos, com vagas de Scrum Master e Release Train Engineer."
+    },
+    "fueled": {
+      "careersUrl": "https://job-boards.greenhouse.io/fueledcareers",
+      "category": "Agência digital americana",
+      "hires": "LATAM, remoto",
+      "hq": "New York, NY (EUA)",
+      "model": "Tempo integral",
+      "name": "Fueled",
+      "order": 14,
+      "roles": [
+        "PM"
+      ],
+      "size": "Média",
+      "why": "Agência de produtos digitais para startups e marcas Fortune 500, com preferência declarada por candidatos da LATAM."
+    },
+    "globant": {
+      "careersUrl": "https://career.globant.com",
+      "category": "Consultoria",
+      "hires": "Brasil (São Paulo) e LATAM",
+      "hq": "Luxemburgo e Buenos Aires",
+      "model": "CLT local, clientes globais",
+      "name": "Globant",
+      "order": 4,
+      "roles": [
+        "AC",
+        "SM",
+        "DM"
+      ],
+      "size": "Grande",
+      "why": "Muitas vagas com o título exato de Delivery Manager e Agilist. Pede inglês avançado e certificações."
+    },
+    "hyland": {
+      "careersUrl": "https://careers-hyland.icims.com",
+      "category": "Software (contratação direta)",
+      "hires": "Brasil, remoto",
+      "hq": "Westlake, OH (EUA)",
+      "model": "CLT",
+      "name": "Hyland",
+      "order": 11,
+      "roles": [
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Software corporativo americano que contrata gestores de projeto de TI remotos no Brasil."
+    },
+    "insight-global": {
+      "careersUrl": "https://jobs.insightglobal.com",
+      "category": "Staffing americano",
+      "hires": "Brasil e LATAM, remoto",
+      "hq": "Atlanta, GA (EUA)",
+      "model": "Contrato via staffing, valor por hora em USD",
+      "name": "Insight Global",
+      "order": 1,
+      "roles": [
+        "DM",
+        "SM",
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Staffing que coloca profissionais da América Latina em clientes americanos, no horário da costa leste. Bom para quem aceita contrato."
+    },
+    "nortal": {
+      "careersUrl": "https://boards.greenhouse.io/nortal",
+      "category": "Consultoria",
+      "hires": "LATAM, remoto",
+      "hq": "Tallinn (Estônia), clientes nos EUA",
+      "model": "Tempo integral, salário em USD",
+      "name": "Nortal",
+      "order": 16,
+      "roles": [
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Consultoria para governo, saúde e setores regulados, com time na LATAM atendendo clientes americanos."
+    },
+    "phdata": {
+      "careersUrl": "https://boards.greenhouse.io/phdata",
+      "category": "Consultoria de dados",
+      "hires": "LATAM, remoto",
+      "hq": "EUA",
+      "model": "Tempo integral",
+      "name": "phData",
+      "order": 17,
+      "roles": [
+        "PGM"
+      ],
+      "size": "Média",
+      "why": "Dados e IA para saúde, finanças e indústria. Abre Program Manager remoto na LATAM."
+    },
+    "power-digital": {
+      "careersUrl": "https://boards.greenhouse.io/powerdigitalmarketing",
+      "category": "Agência digital americana",
+      "hires": "Brasil e Colômbia, remoto",
+      "hq": "San Diego, CA (EUA)",
+      "model": "Tempo integral",
+      "name": "Power Digital",
+      "order": 15,
+      "roles": [
+        "PM"
+      ],
+      "size": "Média",
+      "why": "Agência americana que abriu vaga de IT Project Manager remota para o Brasil, pedindo inglês C1."
+    },
+    "salesforce": {
+      "careersUrl": "https://careers.salesforce.com",
+      "category": "Software (contratação direta)",
+      "hires": "Brasil, remoto",
+      "hq": "San Francisco, CA (EUA)",
+      "model": "CLT pela operação brasileira",
+      "name": "Salesforce",
+      "order": 5,
+      "roles": [
+        "DM",
+        "SM"
+      ],
+      "size": "Grande",
+      "why": "Abre vagas de Engagement Delivery Manager remotas no Brasil, em projetos de serviços profissionais."
+    },
+    "stefanini": {
+      "careersUrl": "",
+      "category": "Consultoria",
+      "hires": "Brasil, remoto",
+      "hq": "São Paulo, com operação nos EUA",
+      "model": "CLT",
+      "name": "Stefanini",
+      "order": 22,
+      "roles": [
+        "SM",
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Multinacional brasileira com clientes nos EUA e vagas frequentes de Scrum Master e gestão de projetos."
+    },
+    "thoughtworks": {
+      "careersUrl": "https://www.thoughtworks.com/en-br/careers/jobs",
+      "category": "Consultoria",
+      "hires": "Brasil (BH, Porto Alegre, Recife, São Paulo)",
+      "hq": "Chicago, IL (EUA)",
+      "model": "CLT, contas globais",
+      "name": "Thoughtworks",
+      "order": 10,
+      "roles": [
+        "DM",
+        "AC"
+      ],
+      "size": "Grande",
+      "why": "Referência em métricas de entrega. Os papéis de delivery aparecem como Lead ou Principal Consultant."
+    },
+    "toptal": {
+      "careersUrl": "https://www.toptal.com/freelance-jobs/project-managers/scrum-master",
+      "category": "Rede de talentos",
+      "hires": "Brasil, freelance",
+      "hq": "EUA (empresa remota)",
+      "model": "Projetos como freelancer, após triagem",
+      "name": "Toptal",
+      "order": 19,
+      "roles": [
+        "SM",
+        "AC",
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Rede de freelancers com clientes americanos. A triagem é longa e pesa inglês e casos reais."
+    },
+    "valtech": {
+      "careersUrl": "https://job-boards.eu.greenhouse.io/valtech",
+      "category": "Consultoria digital",
+      "hires": "Brasil, remoto",
+      "hq": "Paris (França), clientes globais",
+      "model": "Tempo integral",
+      "name": "Valtech",
+      "order": 20,
+      "roles": [
+        "PM"
+      ],
+      "size": "Grande",
+      "why": "Abre vagas de Project Manager remotas no Brasil, com inglês e português."
+    }
+  },
+  "benchmarks": {
+    "AC": {
+      "avg": "R$ 12 mil",
+      "order": 2,
+      "range": "R$ 10 a 14 mil",
+      "source": "Glassdoor Brasil",
+      "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/agile-coach-sal%C3%A1rio-SRCH_KO0,11.htm",
+      "variable": "R$ 2 mil"
+    },
+    "DM": {
+      "avg": "R$ 15 mil",
+      "order": 5,
+      "range": "R$ 12 a 18 mil",
+      "source": "Glassdoor Brasil",
+      "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/delivery-manager-sal%C3%A1rio-SRCH_KO0,16.htm",
+      "variable": "R$ 2 mil"
+    },
+    "PGM": {
+      "avg": "R$ 14 mil",
+      "order": 4,
+      "range": "R$ 9 a 17 mil",
+      "source": "Glassdoor Brasil",
+      "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/program-manager-sal%C3%A1rio-SRCH_KO0,15.htm",
+      "variable": "R$ 2 mil"
+    },
+    "PM": {
+      "avg": "R$ 12 mil",
+      "order": 3,
+      "range": "R$ 8 a 17 mil",
+      "source": "Glassdoor Brasil (Gerente de Projetos)",
+      "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/gerente-de-projetos-sal%C3%A1rio-SRCH_KO0,19.htm",
+      "variable": "R$ 2 mil"
+    },
+    "SM": {
+      "avg": "R$ 8 mil",
+      "order": 1,
+      "range": "R$ 6 a 9 mil",
+      "source": "Glassdoor Brasil",
+      "url": "https://www.glassdoor.com.br/Sal%C3%A1rios/scrum-master-sal%C3%A1rio-SRCH_KO0,12.htm",
+      "variable": "R$ 0,9 mil"
+    }
+  },
+  "meta": {
+    "fx": {
+      "date": "2026-10-11",
+      "source": "Renova Invest, dólar comercial",
+      "usdbrl": 4.98
+    }
+  }
+}

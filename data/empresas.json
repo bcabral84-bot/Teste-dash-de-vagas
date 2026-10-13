@@ -1,0 +1,2386 @@
+[
+ {
+  "id": "insight-global",
+  "name": "Insight Global",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Atlanta, GA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Contrato via staffing, valor por hora em USD",
+  "roles": [
+   "DM",
+   "SM",
+   "PM"
+  ],
+  "careersUrl": "https://jobs.insightglobal.com",
+  "why": "Staffing que coloca profissionais da América Latina em clientes americanos, no horário da costa leste. Bom para quem aceita contrato.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "pavago",
+  "name": "Pavago",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em tempo integral em empresas americanas",
+  "roles": [
+   "PMO",
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/pavago/jobs",
+  "why": "Recruta na América Latina para empresas pequenas e médias dos EUA. Em 13/10/2026 tinha 34 vagas abertas para o Brasil, a maioria em operações e marketing.",
+  "boards": [],
+  "him": "pavago",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "paired",
+  "name": "Paired",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em marcas americanas de venda direta (DTC)",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/paired-so/jobs",
+  "why": "Coloca profissionais da América Latina em marcas americanas de e-commerce. Abre vagas de Project Manager para marcas dos EUA.",
+  "boards": [],
+  "him": "paired-so",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "work-better-now",
+  "name": "Work Better Now",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Assistentes e coordenadores alocados em empresas americanas",
+  "roles": [
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/work-better-now/jobs",
+  "why": "Aloca assistentes e coordenadores da América Latina em empresas dos EUA. Porta de entrada para Project Coordinator.",
+  "boards": [],
+  "him": "work-better-now",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "talentcross",
+  "name": "TalentCross",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em empresas americanas",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/talentcross/jobs",
+  "why": "Recrutadora de talentos da América Latina para empresas dos EUA. Tinha vaga de Technical Project Manager aberta para o Brasil.",
+  "boards": [],
+  "him": "talentcross",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "rekluti",
+  "name": "XKTalent (Rimutee)",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em clientes estrangeiros",
+  "roles": [
+   "PM",
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/rekluti/jobs",
+  "why": "Recrutadora para a América Latina com vagas de Project Manager e PMO abertas a quem está no Brasil. Algumas pedem espanhol.",
+  "boards": [],
+  "him": "rekluti",
+  "aliases": [
+   "XKTalent Inc. - Rimutee"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "remote-talent-latam",
+  "name": "Remote Talent LATAM",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em empresas americanas",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/remote-talent-latam/jobs",
+  "why": "Aloca profissionais da América Latina em empresas dos EUA. Vaga recente de Salesforce Implementation Project Manager com faixa declarada.",
+  "boards": [],
+  "him": "remote-talent-latam",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "adaptive-teams",
+  "name": "Adaptive Teams",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Times dedicados para empresas americanas",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://adaptiveteams.teamtailor.com/jobs",
+  "why": "Monta times na América Latina para empresas americanas de produto. Tinha vaga de Project Manager de desenvolvimento de produto.",
+  "boards": [
+   {
+    "ats": "teamtailor",
+    "slug": "https://adaptiveteams.teamtailor.com/jobs.rss"
+   }
+  ],
+  "him": "adaptive-teams",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "the-global-talent-co",
+  "name": "The Global Talent Co.",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em empresas americanas",
+  "roles": [
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/the-global-talent-co/jobs",
+  "why": "Recrutadora de profissionais remotos da América Latina para empresas dos EUA, mais forte em marketing e conteúdo.",
+  "boards": [],
+  "him": "the-global-talent-co",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "huzzle",
+  "name": "Huzzle",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em empresas dos EUA e do Reino Unido",
+  "roles": [
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/huzzle/jobs",
+  "why": "Plataforma de recrutamento que coloca profissionais remotos em empresas dos EUA e do Reino Unido. Em 13/10/2026 tinha 11 vagas para o Brasil.",
+  "boards": [],
+  "him": "huzzle",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "hire-overseas",
+  "name": "Hire Overseas",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Alocação em empresas americanas",
+  "roles": [
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/hire-overseas/jobs",
+  "why": "Recrutadora de profissionais remotos fora dos EUA para empresas americanas.",
+  "boards": [],
+  "him": "hire-overseas",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "allshore-talent",
+  "name": "Allshore Talent",
+  "category": "Staffing e alocação",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Times de software na América Latina para empresas americanas",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://allshoretalent.recruitee.com",
+  "why": "Monta times de software na América Latina para empresas dos EUA.",
+  "boards": [
+   {
+    "ats": "recruitee",
+    "slug": "allshoretalent"
+   }
+  ],
+  "him": "allshore-talent",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "toptal",
+  "name": "Toptal",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "EUA (empresa remota)",
+  "size": "Grande",
+  "hires": "Brasil, freelance",
+  "model": "Projetos como freelancer, após triagem",
+  "roles": [
+   "SM",
+   "AC",
+   "PM"
+  ],
+  "careersUrl": "https://www.toptal.com/freelance-jobs/project-managers/scrum-master",
+  "why": "Rede de freelancers com clientes americanos e europeus. A triagem é longa e pesa inglês e casos reais.",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "toptal"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "turing",
+  "name": "Turing",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Palo Alto, CA (EUA)",
+  "size": "Média",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Contrato com empresas americanas, pagamento em USD",
+  "roles": [
+   "PM",
+   "PGM"
+  ],
+  "careersUrl": "https://www.turing.com/jobs",
+  "why": "Plataforma que contrata profissionais remotos fora dos EUA para empresas americanas. O quadro oficial tinha vagas abertas para o Brasil.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "turing"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "andela",
+  "name": "Andela",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Nova York, NY (EUA)",
+  "size": "Grande",
+  "hires": "LATAM, remoto",
+  "model": "Contrato com empresas americanas",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://andela.com/talent",
+  "why": "Marketplace de talentos com programa para a América Latina. Mais forte em engenharia, mas aceita perfis de entrega.",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "andela"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "lemon-io",
+  "name": "Lemon.io",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "Brasil e LATAM, freelance",
+  "model": "Freelance para startups dos EUA e da Europa",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://lemon.io/for-developers/",
+  "why": "Marketplace de freelancers para startups dos EUA e da Europa. Foco em engenharia.",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "lemon-io"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "revelo",
+  "name": "Revelo",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "São Paulo, SP",
+  "size": "Média",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Contrato com empresas americanas",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://www.revelo.com/",
+  "why": "Plataforma brasileira de recrutamento que coloca profissionais da América Latina em empresas dos EUA.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "strider",
+  "name": "Strider",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Tempo integral com empresas americanas",
+  "roles": [
+   "PRD",
+   "PM"
+  ],
+  "careersUrl": "https://www.onstrider.com/",
+  "why": "Plataforma que liga empresas dos EUA a profissionais da América Latina, inclusive de Product Management.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "howdy",
+  "name": "Howdy.com",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Austin, TX (EUA)",
+  "size": "Média",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Contratação gerida pela Howdy para empresas americanas",
+  "roles": [
+   "PRD",
+   "PM"
+  ],
+  "careersUrl": "https://www.howdy.com/",
+  "why": "Contrata profissionais da América Latina para times de tecnologia dos EUA. Comprou a brasileira GeekHunter em 2023.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "crossover",
+  "name": "Crossover",
+  "category": "Rede de talentos",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Austin, TX (EUA)",
+  "size": "Média",
+  "hires": "Qualquer país, remoto",
+  "model": "Contrato remoto em tempo integral, pagamento em USD",
+  "roles": [
+   "PM",
+   "PGM",
+   "DM"
+  ],
+  "careersUrl": "https://www.crossover.com/jobs",
+  "why": "Contrata remoto no mundo todo com salário fixo em dólar, inclusive para gestão de programas e produto. Processo com testes online.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "proxify",
+  "name": "Proxify",
+  "category": "Rede de talentos",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Estocolmo (Suécia)",
+  "size": "Média",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Contrato com empresas europeias",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://proxify.io/",
+  "why": "Marketplace sueco que aloca profissionais remotos em empresas europeias. Foco em engenharia.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "bairesdev",
+  "name": "BairesDev",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "San Francisco, CA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil, 100% remoto",
+  "model": "Contractor, pagamento em USD",
+  "roles": [
+   "SM",
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://talent.bairesdev.com/pt/vagas/scrum-master-remote",
+  "why": "Uma das maiores portas de entrada da América Latina para clientes dos EUA. Processo estruturado e em volume.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "agileengine",
+  "name": "AgileEngine",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral remoto",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://join.agileengine.com/brazil/",
+  "why": "Diz que o Brasil é um dos principais mercados de contratação e que todo time tem um Delivery ou Project Manager.",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "agileengine"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "dev-pro",
+  "name": "Dev.Pro",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA (empresa 99,9% remota)",
+  "size": "Média",
+  "hires": "Brasil e Argentina, remoto",
+  "model": "Tempo integral remoto",
+  "roles": [
+   "PM",
+   "PGM",
+   "DM",
+   "SM"
+  ],
+  "careersUrl": "https://apply.workable.com/devpro/",
+  "why": "Recruta ativamente no Brasil. Em 13/10/2026 tinha Delivery Director, Delivery Manager e Senior Program Manager abertos para São Paulo, remoto.",
+  "boards": [],
+  "him": "dev-pro",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "encora",
+  "name": "Encora",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Scottsdale, AZ (EUA)",
+  "size": "Grande",
+  "hires": "Brasil (Campinas e São Paulo)",
+  "model": "CLT, alocado em conta internacional",
+  "roles": [
+   "SM",
+   "PM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/encora10",
+  "why": "Nearshore para clientes dos EUA, comprada pela Coforge em 2026. Reorganização costuma abrir vagas de delivery.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "encora10"
+   }
+  ],
+  "him": "encora",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "avenue-code",
+  "name": "Avenue Code",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "San Francisco, CA (EUA)",
+  "size": "Média",
+  "hires": "Brasil (São Paulo e Belo Horizonte)",
+  "model": "CLT ou PJ, conforme a conta",
+  "roles": [
+   "SM",
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://www.linkedin.com/company/avenuecode/jobs",
+  "why": "Existe para alocar times do Brasil em clientes americanos. Hoje parte do grupo AI/R Compass UOL.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "bluelight",
+  "name": "Bluelight Consulting",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Tempo integral, horário dos EUA",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://jobs.lever.co/bluelightconsulting",
+  "why": "Nearshore no fuso americano com vagas recorrentes de Project Manager para quem está no Brasil.",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "bluelightconsulting"
+   }
+  ],
+  "him": "bluelight-consulting",
+  "aliases": [
+   "Bluelight"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "arctouch",
+  "name": "ArcTouch",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "San Francisco, CA (EUA)",
+  "size": "Média",
+  "hires": "Brasil (Florianópolis e remoto)",
+  "model": "CLT, contas norte-americanas",
+  "roles": [
+   "PM",
+   "SM",
+   "PRD"
+  ],
+  "careersUrl": "https://arctouch.com/careers",
+  "why": "Tem o cargo de Agile Project Manager na estrutura e banco de talentos de Product Manager com experiência em projetos.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "arctouch"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "truelogic",
+  "name": "Truelogic",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Tempo integral remoto para clientes dos EUA",
+  "roles": [
+   "PGM",
+   "PM",
+   "PRD"
+  ],
+  "careersUrl": "https://jobs.ashbyhq.com/truelogic",
+  "why": "Nearshore com time na América Latina. Em 13/10/2026 tinha 69 vagas abertas para LATAM no quadro oficial, incluindo Technical Program Manager.",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "truelogic"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "coderio",
+  "name": "Coderio",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Times dedicados para clientes dos EUA",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://jobs.lever.co/coderio",
+  "why": "Nearshore com times na América Latina para clientes americanos. Abre vagas para o Brasil no quadro oficial.",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "coderio"
+   }
+  ],
+  "him": "coderio",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "jobsity",
+  "name": "Jobsity",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Nova York, NY (EUA)",
+  "size": "Média",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Contractor, pagamento em USD",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://careers.jobsity.com/",
+  "why": "Staffing nearshore que diz estar ampliando a contratação no Brasil. Vagas como contractor pagas em dólar.",
+  "boards": [
+   {
+    "ats": "teamtailor",
+    "slug": "https://cc-jobs-jobsity.na.teamtailor.com/jobs.rss"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "ubiminds",
+  "name": "Ubiminds",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Florianópolis, SC",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Alocação de longo prazo em empresas de software dos EUA",
+  "roles": [
+   "DM",
+   "PM"
+  ],
+  "careersUrl": "https://ubiminds.com/en-us/",
+  "why": "Coloca profissionais brasileiros em empresas de software dos EUA. Em 13/10/2026 tinha vagas de Delivery Manager e Engagement Manager.",
+  "boards": [],
+  "him": "ubiminds",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "oowlish",
+  "name": "Oowlish",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Brasil",
+  "size": "Pequena",
+  "hires": "Brasil, remoto",
+  "model": "Alocação em clientes dos EUA",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/oowlish-technology/jobs",
+  "why": "Empresa de engenharia que aloca profissionais brasileiros em clientes americanos.",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "oowlish"
+   }
+  ],
+  "him": "oowlish-technology",
+  "aliases": [
+   "Oowlish Technology"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "invillia",
+  "name": "Invillia",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Araraquara, SP",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Times dedicados para clientes",
+  "roles": [
+   "PM",
+   "SM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/invillia/jobs",
+  "why": "Software house brasileira que monta times dedicados, com vagas remotas em inglês.",
+  "boards": [],
+  "him": "invillia",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "cheesecake-labs",
+  "name": "Cheesecake Labs",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Florianópolis, SC",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Contrato com a empresa brasileira, pagamento em reais",
+  "roles": [
+   "PM",
+   "PRD"
+  ],
+  "careersUrl": "https://cheesecakelabs.com/careers/",
+  "why": "Desenvolve produtos para clientes dos EUA e tem escritório em San Francisco. Contrata pela operação brasileira, em reais.",
+  "boards": [],
+  "him": "cheesecake-labs",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "modus-create",
+  "name": "Modus Create",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Reston, VA (EUA)",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Tempo integral remoto",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/moduscreate",
+  "why": "Consultoria de produto digital com time distribuído. O quadro oficial tinha vagas abertas para a América Latina.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "moduscreate"
+   }
+  ],
+  "him": "modus-create",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "agilityfeat",
+  "name": "AgilityFeat",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Times dedicados para clientes dos EUA",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://agilityfeat.bamboohr.com/careers",
+  "why": "Nearshore com times na América Latina, com vagas de implementação para clientes financeiros.",
+  "boards": [],
+  "him": "agilityfeat",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "praxent",
+  "name": "Praxent",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Austin, TX (EUA)",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Times para fintechs americanas",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/praxent",
+  "why": "Consultoria de software para fintechs dos EUA que contrata engenheiros na América Latina.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "praxent"
+   }
+  ],
+  "him": "praxent",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "miratech",
+  "name": "Miratech",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Nova York, NY (EUA)",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Serviços de TI para clientes globais",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/miratech/jobs",
+  "why": "Serviços de TI com times na Europa e na América Latina, abrindo vagas remotas para o Brasil.",
+  "boards": [],
+  "him": "miratech",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "metal-toad",
+  "name": "Metal Toad",
+  "category": "Nearshore de software",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Portland, OR (EUA)",
+  "size": "Pequena",
+  "hires": "Brasil, remoto",
+  "model": "Banco de talentos para projetos de clientes dos EUA",
+  "roles": [
+   "PM",
+   "PO"
+  ],
+  "careersUrl": "https://metaltoad.bamboohr.com/careers",
+  "why": "Agência americana de software com banco de talentos no Brasil para Project Manager e Product Owner.",
+  "boards": [],
+  "him": "metal-toad",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "power-digital",
+  "name": "Power Digital",
+  "category": "Agência digital",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "San Diego, CA (EUA)",
+  "size": "Média",
+  "hires": "Brasil e Colômbia, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/powerdigitalmarketing",
+  "why": "Agência americana com muitas vagas remotas no Brasil. Em 13/10/2026 tinha 55 vagas abertas para o Brasil, incluindo Project Manager.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "powerdigitalmarketing"
+   }
+  ],
+  "him": "power-digital-marketing",
+  "aliases": [
+   "Power Digital Marketing"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "darkroom",
+  "name": "Darkroom",
+  "category": "Agência digital",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PGM",
+   "PM"
+  ],
+  "careersUrl": "https://jobs.ashbyhq.com/darkroom",
+  "why": "Agência de marketing de crescimento. Em 13/10/2026 tinha 25 vagas abertas para o Brasil.",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "darkroom"
+   }
+  ],
+  "him": "darkroom",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "fueled",
+  "name": "Fueled",
+  "category": "Agência digital",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Nova York, NY (EUA)",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/fueledcareers",
+  "why": "Agência de produtos digitais para startups e marcas Fortune 500, com preferência declarada por candidatos da América Latina.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "fueledcareers"
+   }
+  ],
+  "him": "fueled",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "fusionspan",
+  "name": "fusionSpan",
+  "category": "Agência digital",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Projetos Salesforce para clientes dos EUA",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://fusionspan.bamboohr.com/careers",
+  "why": "Consultoria Salesforce para associações americanas que contrata Project Manager na América Latina.",
+  "boards": [],
+  "him": "fusionspan",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "blackbox-strategies",
+  "name": "BlackBox Strategies",
+  "category": "Agência digital",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "LATAM, remoto",
+  "model": "Projetos de CRM HubSpot para clientes",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/blackbox-strategies/jobs",
+  "why": "Consultoria de HubSpot e operações de receita com vagas remotas para a América Latina.",
+  "boards": [],
+  "him": "blackbox-strategies",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "atmosera",
+  "name": "Atmosera",
+  "category": "Consultoria de dados e nuvem",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Pequena",
+  "hires": "LATAM, remoto (pede espanhol)",
+  "model": "Contrato por prazo determinado",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://jobs.lever.co/atmosera",
+  "why": "Serviços gerenciados de nuvem com clientes no mundo todo. Serve para quem tem espanhol além do inglês.",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "atmosera"
+   }
+  ],
+  "him": "atmosera",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "phdata",
+  "name": "phData",
+  "category": "Consultoria de dados e nuvem",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "EUA",
+  "size": "Média",
+  "hires": "LATAM, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PGM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/phdata",
+  "why": "Dados e IA para saúde, finanças e indústria. Abre Program Manager remoto na América Latina.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "phdata"
+   }
+  ],
+  "him": "phdata",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "ciandt",
+  "name": "CI&T",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Campinas, SP",
+  "size": "Grande",
+  "hires": "Brasil, remoto e híbrido",
+  "model": "CLT, alocado em contas da América do Norte e da Europa",
+  "roles": [
+   "SM",
+   "AC",
+   "DM",
+   "PM"
+  ],
+  "careersUrl": "https://jobs.lever.co/ciandt",
+  "why": "Cerca de 40% da receita vem da América do Norte. Usa o título Squad Leader para o papel de agilidade e delivery. Em 13/10/2026 tinha 183 vagas no Brasil no quadro oficial.",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "ciandt"
+   }
+  ],
+  "him": "ci-t",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "globant",
+  "name": "Globant",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Luxemburgo e Buenos Aires",
+  "size": "Grande",
+  "hires": "Brasil (São Paulo) e LATAM",
+  "model": "CLT local, clientes globais",
+  "roles": [
+   "AC",
+   "SM",
+   "DM"
+  ],
+  "careersUrl": "https://career.globant.com",
+  "why": "Muitas vagas com o título exato de Delivery Manager e Agilist. Pede inglês avançado e certificações.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "epam",
+  "name": "EPAM Systems",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Newtown, PA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil (confirmar vaga a vaga)",
+  "model": "Remoto pelo programa EPAM Anywhere",
+  "roles": [
+   "SM",
+   "RTE",
+   "DM"
+  ],
+  "careersUrl": "https://careers.epam.com/en/jobs",
+  "why": "Engenharia de software para clientes americanos e europeus, com vagas de Scrum Master e Release Train Engineer.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "thoughtworks",
+  "name": "Thoughtworks",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Chicago, IL (EUA)",
+  "size": "Grande",
+  "hires": "Brasil (BH, Porto Alegre, Recife, São Paulo)",
+  "model": "CLT, contas globais",
+  "roles": [
+   "DM",
+   "AC"
+  ],
+  "careersUrl": "https://www.thoughtworks.com/en-br/careers/jobs",
+  "why": "Referência em métricas de entrega. Os papéis de delivery aparecem como Lead ou Principal Consultant.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "thoughtworks"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "capgemini",
+  "name": "Capgemini",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Paris (França), grande operação nos EUA",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT, clientes de seguros e finanças nos EUA e na Europa",
+  "roles": [
+   "PGM",
+   "PM",
+   "SM"
+  ],
+  "careersUrl": "https://apply.workable.com/capgemini-insurance/",
+  "why": "A unidade de seguros contrata gestores remotos no Brasil para seguradoras americanas. A unidade FBS tinha 16 vagas remotas no Brasil em 13/10/2026.",
+  "boards": [],
+  "him": "capgemini-technology-services",
+  "aliases": [
+   "Capgemini Technology Services",
+   "Capgemini Technology Service"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "accenture",
+  "name": "Accenture",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Dublin (Irlanda)",
+  "size": "Grande",
+  "hires": "Brasil, várias cidades",
+  "model": "CLT, projetos locais e globais",
+  "roles": [
+   "PM",
+   "PGM",
+   "SM",
+   "AC",
+   "DM"
+  ],
+  "careersUrl": "https://www.accenture.com/br-pt/careers",
+  "why": "Consultoria global com operação grande no Brasil e projetos para clientes fora do país. Vale filtrar por vagas que pedem inglês.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "cognizant",
+  "name": "Cognizant",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Teaneck, NJ (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, clientes globais",
+  "roles": [
+   "RTE",
+   "SM",
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://careers.cognizant.com/latam-pt/",
+  "why": "Serviços de TI para clientes dos EUA e da Europa. O site de carreiras da América Latina tinha vagas de Release Train Engineer.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "ibm",
+  "name": "IBM Consulting",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Armonk, NY (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, projetos locais e globais",
+  "roles": [
+   "PM",
+   "PGM",
+   "DM",
+   "AC"
+  ],
+  "careersUrl": "https://www.ibm.com/careers",
+  "why": "Consultoria e serviços com times no Brasil atendendo contas das Américas.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "deloitte",
+  "name": "Deloitte",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Londres (Reino Unido)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, projetos locais e globais",
+  "roles": [
+   "PM",
+   "PGM",
+   "DM"
+  ],
+  "careersUrl": "https://br.indeed.com/cmp/Deloitte/jobs",
+  "why": "Consultoria com prática de tecnologia no Brasil e projetos para clientes globais.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "avanade",
+  "name": "Avanade",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Seattle, WA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, projetos Microsoft para clientes globais",
+  "roles": [
+   "PM",
+   "DM",
+   "SM"
+  ],
+  "careersUrl": "https://www.avanade.com/pt-br/career",
+  "why": "Joint venture de Accenture e Microsoft, com entrega no Brasil para contas globais.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "kyndryl",
+  "name": "Kyndryl",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Nova York, NY (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, serviços de infraestrutura",
+  "roles": [
+   "PM",
+   "PGM",
+   "DM"
+  ],
+  "careersUrl": "https://www.kyndryl.com/us/en/careers",
+  "why": "Serviços de infraestrutura que saíram da IBM, com operação no Brasil e gestão de projetos para clientes globais.",
+  "boards": [],
+  "him": "kyndryl",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "dxc",
+  "name": "DXC Technology",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Ashburn, VA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://dxc.com/us/en/careers",
+  "why": "Serviços de TI com operação no Brasil. Em 13/10/2026 tinha 7 vagas remotas para o Brasil.",
+  "boards": [],
+  "him": "dxc-technology",
+  "aliases": [
+   "DXC Technology"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "unisys",
+  "name": "Unisys",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Blue Bell, PA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://www.unisys.com/careers/",
+  "why": "Serviços de TI com time no Brasil atendendo clientes globais.",
+  "boards": [],
+  "him": "unisys",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "tcs",
+  "name": "Tata Consultancy Services",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Mumbai (Índia)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, clientes globais",
+  "roles": [
+   "PM",
+   "PGM",
+   "DM",
+   "SM"
+  ],
+  "careersUrl": "https://www.tcs.com/careers",
+  "why": "Grande empresa indiana de serviços de TI com centros de entrega no Brasil para clientes das Américas.",
+  "boards": [],
+  "him": "",
+  "aliases": [
+   "TCS"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "wipro",
+  "name": "Wipro",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Bengaluru (Índia)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, clientes globais",
+  "roles": [
+   "PM",
+   "DM",
+   "SM"
+  ],
+  "careersUrl": "https://careers.wipro.com",
+  "why": "Serviços de TI com operação no Brasil e clientes nos EUA e na Europa.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "tech-mahindra",
+  "name": "Tech Mahindra",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Pune (Índia)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, clientes globais",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://careers.techmahindra.com",
+  "why": "Serviços de TI e telecom com operação no Brasil.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "softtek",
+  "name": "Softtek",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Monterrey (México)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT ou PJ",
+  "roles": [
+   "PM",
+   "SM"
+  ],
+  "careersUrl": "https://careers.softtek.com",
+  "why": "Nearshore mexicana com operação no Brasil. Em 13/10/2026 tinha 18 vagas remotas no Brasil, incluindo Gerente de Projetos SAP Sênior.",
+  "boards": [],
+  "him": "softtek",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "stefanini",
+  "name": "Stefanini",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "São Paulo, com operação nos EUA e na Europa",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "SM",
+   "PM",
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/stefanini/jobs",
+  "why": "Multinacional brasileira com clientes nos EUA e na Europa. Em 13/10/2026 tinha 89 vagas remotas no Brasil.",
+  "boards": [],
+  "him": "stefanini",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "rimini-street",
+  "name": "Rimini Street",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Las Vegas, NV (EUA)",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "DM",
+   "PM"
+  ],
+  "careersUrl": "https://www.riministreet.com/careers/",
+  "why": "Suporte de software corporativo (SAP e Oracle) para clientes globais. Em 13/10/2026 tinha 19 vagas remotas no Brasil.",
+  "boards": [],
+  "him": "rimini-street-inc",
+  "aliases": [
+   "Rimini Street, Inc"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "compass-uol",
+  "name": "Compass UOL",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "São Paulo, SP",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT, clientes nos EUA e no Brasil",
+  "roles": [
+   "SM",
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/compass-uol/jobs",
+  "why": "Grupo AI/R, que também controla a Avenue Code. Tinha vaga de Scrum Master remota em 11/10/2026.",
+  "boards": [],
+  "him": "compass-uol",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "concentrix",
+  "name": "Concentrix",
+  "category": "Consultoria global",
+  "markets": [
+   "EUA",
+   "Europa"
+  ],
+  "hq": "Newark, CA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT",
+  "roles": [
+   "PM",
+   "PMO"
+  ],
+  "careersUrl": "https://jobs.concentrix.com",
+  "why": "Atendimento e tecnologia para clientes globais, com vagas de projeto e operação no Brasil.",
+  "boards": [],
+  "him": "concentrix",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "nortal",
+  "name": "Nortal",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Tallinn (Estônia)",
+  "size": "Grande",
+  "hires": "LATAM, remoto",
+  "model": "Tempo integral, salário em USD",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/nortal",
+  "why": "Consultoria europeia para governo, saúde e setores regulados. Em 13/10/2026 todas as 24 vagas do quadro oficial eram para a América Latina.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "nortal"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "valtech",
+  "name": "Valtech",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Paris (França)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PM",
+   "PO"
+  ],
+  "careersUrl": "https://job-boards.eu.greenhouse.io/valtech",
+  "why": "Agência e consultoria digital europeia que abre vagas de Project Manager e Product Owner remotas no Brasil.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "valtech"
+   }
+  ],
+  "him": "valtech",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "endava",
+  "name": "Endava",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Londres (Reino Unido)",
+  "size": "Grande",
+  "hires": "Brasil (São Paulo)",
+  "model": "CLT, híbrido",
+  "roles": [
+   "PM",
+   "DM",
+   "SM"
+  ],
+  "careersUrl": "https://jobs.smartrecruiters.com/Endava",
+  "why": "Consultoria britânica de tecnologia com operação em São Paulo para clientes da Europa e dos EUA.",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "Endava"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "gft",
+  "name": "GFT Technologies",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Stuttgart (Alemanha)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PM",
+   "SM",
+   "DM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/gft/jobs",
+  "why": "Consultoria alemã focada em bancos, com operação grande no Brasil. Em 13/10/2026 tinha 9 vagas remotas no Brasil.",
+  "boards": [],
+  "him": "gft",
+  "aliases": [
+   "gft",
+   "GFT"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "inetum",
+  "name": "Inetum",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Paris (França)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/inetum/jobs",
+  "why": "Consultoria francesa com operação no Brasil, forte em SAP. Em 13/10/2026 tinha 12 vagas remotas no Brasil.",
+  "boards": [],
+  "him": "inetum",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "minsait",
+  "name": "Minsait (Indra)",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Madri (Espanha)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PM",
+   "SM"
+  ],
+  "careersUrl": "https://br.indeed.com/cmp/Minsait/jobs",
+  "why": "Unidade de tecnologia do grupo espanhol Indra, com operação no Brasil.",
+  "boards": [],
+  "him": "minsait-an-indra-company",
+  "aliases": [
+   "Minsait an Indra Company"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "ntt-data",
+  "name": "NTT DATA",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Tóquio (Japão), com sede europeia em Madri",
+  "size": "Grande",
+  "hires": "Brasil",
+  "model": "CLT, clientes globais",
+  "roles": [
+   "PM",
+   "PGM",
+   "SM",
+   "AC"
+  ],
+  "careersUrl": "https://careers.nttdata.com",
+  "why": "Antiga everis no Brasil. Atende bancos e seguradoras da Europa e das Américas.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "bip",
+  "name": "BIP",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Milão (Itália)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PM",
+   "PMO"
+  ],
+  "careersUrl": "https://himalayas.app/companies/bip-brasil/jobs",
+  "why": "Consultoria italiana com operação no Brasil. Em 13/10/2026 tinha 22 vagas remotas no Brasil.",
+  "boards": [],
+  "him": "bip-brasil",
+  "aliases": [
+   "BIP Brasil"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "sigma-software",
+  "name": "Sigma Software",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Kyiv (Ucrânia) e Estocolmo (Suécia)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral remoto",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/sigma-software-e561c036-16e4-4b2c-aa28-a33af9f3750b/jobs",
+  "why": "Empresa europeia de engenharia de software que abriu vagas remotas para o Brasil. Em 13/10/2026 eram 9.",
+  "boards": [],
+  "him": "sigma-software-e561c036-16e4-4b2c-aa28-a33af9f3750b",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "codurance",
+  "name": "Codurance",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Londres (Reino Unido)",
+  "size": "Pequena",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "DM",
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/codurance/jobs",
+  "why": "Consultoria britânica de software com vagas abertas para o Brasil.",
+  "boards": [],
+  "him": "codurance",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "opinov8",
+  "name": "Opinov8",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Londres (Reino Unido)",
+  "size": "Pequena",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://opinov8.teamtailor.com/jobs",
+  "why": "Empresa de tecnologia com times na Europa e na América Latina. O quadro oficial citava o Brasil em várias vagas.",
+  "boards": [
+   {
+    "ats": "teamtailor",
+    "slug": "https://opinov8.teamtailor.com/jobs.rss"
+   }
+  ],
+  "him": "opinov8",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "massive-rocket",
+  "name": "Massive Rocket",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Londres (Reino Unido)",
+  "size": "Pequena",
+  "hires": "Brasil e LATAM, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://jobs.lever.co/massive-rocket",
+  "why": "Consultoria de CRM e dados (Braze, Snowflake). Em 13/10/2026 tinha 9 vagas para Brasil ou LATAM no quadro oficial.",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "massive-rocket"
+   }
+  ],
+  "him": "massive-rocket",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "mindera",
+  "name": "Mindera",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Porto (Portugal)",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PO",
+   "PM"
+  ],
+  "careersUrl": "https://mindera.com/careers",
+  "why": "Empresa portuguesa de software com vaga de Senior Tech Product Owner aberta ao Brasil.",
+  "boards": [],
+  "him": "mindera",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "scandiweb",
+  "name": "Scandiweb",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Riga (Letônia)",
+  "size": "Média",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/scandiweb/jobs",
+  "why": "Agência europeia de e-commerce que contrata Project Manager no Brasil, inclusive júnior.",
+  "boards": [],
+  "him": "scandiweb",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "n-ix",
+  "name": "N-iX",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa",
+   "EUA"
+  ],
+  "hq": "Malta e Ucrânia",
+  "size": "Grande",
+  "hires": "LATAM, remoto (conferir país)",
+  "model": "Tempo integral",
+  "roles": [
+   "PM",
+   "DM"
+  ],
+  "careersUrl": "https://job-boards.greenhouse.io/nix",
+  "why": "Empresa europeia de engenharia com vagas para a América Latina. Confira se o Brasil está incluído em cada vaga.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "nix"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "t-systems",
+  "name": "T-Systems (Deutsche Telekom)",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Frankfurt (Alemanha)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://himalayas.app/companies/deutsche-telekom/jobs",
+  "why": "Braço de TI da Deutsche Telekom com operação no Brasil.",
+  "boards": [],
+  "him": "deutsche-telekom",
+  "aliases": [
+   "Deutsche Telekom"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "keyrus",
+  "name": "Keyrus",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Paris (França)",
+  "size": "Média",
+  "hires": "Brasil",
+  "model": "CLT",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://jobs.smartrecruiters.com/Keyrus",
+  "why": "Consultoria francesa de dados e digital com operação no Brasil.",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "Keyrus"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "progress-partners",
+  "name": "Progress Partners",
+  "category": "Consultoria europeia",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "",
+  "size": "Pequena",
+  "hires": "Qualquer país, fuso CET ±4h",
+  "model": "Tempo integral",
+  "roles": [
+   "DM"
+  ],
+  "careersUrl": "https://jobs.ashbyhq.com/progress-partners",
+  "why": "Contrata remoto no fuso europeu. O Brasil fica no limite, 4 horas atrás de CET.",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "progress-partners"
+   }
+  ],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "salesforce",
+  "name": "Salesforce",
+  "category": "Contratação direta",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "San Francisco, CA (EUA)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT pela operação brasileira",
+  "roles": [
+   "DM",
+   "SM",
+   "PO"
+  ],
+  "careersUrl": "https://careers.salesforce.com",
+  "why": "Abre vagas de Engagement Delivery Manager e Scrum Master remotas no Brasil, em projetos de serviços profissionais.",
+  "boards": [],
+  "him": "salesforce",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "hyland",
+  "name": "Hyland",
+  "category": "Contratação direta",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Westlake, OH (EUA)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PM"
+  ],
+  "careersUrl": "https://careers-hyland.icims.com",
+  "why": "Software corporativo americano que contrata gestores de projeto de TI remotos no Brasil.",
+  "boards": [],
+  "him": "",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "canonical",
+  "name": "Canonical",
+  "category": "Contratação direta",
+  "markets": [
+   "Europa"
+  ],
+  "hq": "Londres (Reino Unido)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "Tempo integral remoto",
+  "roles": [
+   "PM",
+   "PGM"
+  ],
+  "careersUrl": "https://canonical.com/careers",
+  "why": "Empresa do Ubuntu, 100% remota. Em 13/10/2026 tinha 76 vagas abertas ao Brasil no quadro oficial, incluindo Project Manager.",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "canonical"
+   }
+  ],
+  "him": "canonical",
+  "aliases": [],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ },
+ {
+  "id": "wex",
+  "name": "WEX",
+  "category": "Contratação direta",
+  "markets": [
+   "EUA"
+  ],
+  "hq": "Portland, ME (EUA)",
+  "size": "Grande",
+  "hires": "Brasil, remoto",
+  "model": "CLT",
+  "roles": [
+   "PGM"
+  ],
+  "careersUrl": "https://careers.wexinc.com",
+  "why": "Empresa americana de pagamentos com time no Brasil e vagas de Technical Program Manager.",
+  "boards": [],
+  "him": "wex",
+  "aliases": [
+   "wex"
+  ],
+  "evidence": "",
+  "evidenceUrl": "",
+  "market": "intl"
+ }
+]

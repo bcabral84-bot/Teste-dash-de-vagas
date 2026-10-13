@@ -1,0 +1,81 @@
+{
+  "nota": "Ordem importa: a primeira regra que casar com o título define a função. Aderência é ao perfil Projetos, Agilidade e Delivery.",
+  "roles": [
+    {
+      "code": "RTE",
+      "label": "Release Train Engineer",
+      "regex": "release train engineer|\\bRTE\\b|solution train engineer"
+    },
+    {
+      "code": "AC",
+      "label": "Agile Coach",
+      "regex": "agile coach|agilist|agile lead\\b|lean.?agile|coach [aá]gil|agile transformation|ways of working|enterprise agil"
+    },
+    {
+      "code": "DM",
+      "label": "Delivery Manager",
+      "regex": "delivery (manager|lead|director|head|executive|owner|partner)|head of delivery|engagement (manager|director|lead)|gerente de (entrega|delivery)|l[ií]der de delivery|delivery management"
+    },
+    {
+      "code": "SM",
+      "label": "Scrum Master",
+      "regex": "scrum master|squad lead|l[ií]der de squad|team facilitator"
+    },
+    {
+      "code": "PGM",
+      "label": "Program Manager",
+      "regex": "program(me)? manager|program lead|program director|technical program|\\bTPM\\b|gerente de programas?"
+    },
+    {
+      "code": "PMO",
+      "label": "PMO e Coordenação",
+      "regex": "\\bPMO\\b|project coordinator|coordenador(a)? de projetos?|portfolio manager|project analyst|analista de projetos|project management office|project specialist|especialista (em|de) projetos|project controller|project administrator"
+    },
+    {
+      "code": "PO",
+      "label": "Product Owner",
+      "regex": "product owner"
+    },
+    {
+      "code": "PRD",
+      "label": "Product Manager",
+      "regex": "product manager|gerente de produto|head of product|product lead|product director|group product"
+    },
+    {
+      "code": "PM",
+      "label": "Project Manager",
+      "regex": "project manager|project lead|projects? director|gerente de projetos?|gestor(a)? de projetos?|implementation manager|project management lead|\\bIT PM\\b|project management"
+    }
+  ],
+  "exclude": "construction|civil eng|electrical|mechanical|hvac|solar|real estate|architectur|interior design|clinical|medical|nurse|nursing|pharmac|investment|wealth|asset management|trading|insurance agent|recruiter|talent acquisition|sales manager|account executive|intern\\b|estagi|volunteer|unpaid|executive assistant|assistente executiv",
+  "fit": {
+    "SM": "alta",
+    "AC": "alta",
+    "RTE": "alta",
+    "PM": "alta",
+    "PGM": "alta",
+    "DM": "alta",
+    "PMO": "média",
+    "PO": "média",
+    "PRD": "baixa"
+  },
+  "fit_low": "marketing|creative|content|event|e-?commerce|social media|brand|seo|paid media|translation|qualitative|quantitative|biometric|species|clinical|hr service|payroll|account project|executive assistant|game|gtm|revenue operations",
+  "himalayas_queries": [
+    "scrum master",
+    "agile coach",
+    "agilist",
+    "release train engineer",
+    "project manager",
+    "technical project manager",
+    "program manager",
+    "technical program manager",
+    "delivery manager",
+    "delivery lead",
+    "engagement manager",
+    "product owner",
+    "product manager",
+    "pmo",
+    "project coordinator",
+    "gerente de projetos"
+  ]
+}

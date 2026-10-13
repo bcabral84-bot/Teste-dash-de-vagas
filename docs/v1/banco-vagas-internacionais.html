@@ -1,0 +1,329 @@
+<title>Banco de Vagas Internacionais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column; header, tab switch, filter bar, then a dense list of jobs or a grid of company cards. */
+:root{
+  --bg:#F3F4F2; --surface:#FFFFFF; --ink:#15222A; --muted:#5B6970; --line:#D8DEDC;
+  --accent:#0C6B8A; --accent-soft:#E1EEF2; --ok:#1F7A4D; --ok-bg:#E2F2E9; --warn:#A86A00; --warn-bg:#FBF0DC; --off:#7A848A; --off-bg:#ECEFF0;
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"IBM Plex Sans","Segoe UI",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F171B; --surface:#16222A; --ink:#E4ECEE; --muted:#93A3AB; --line:#2A3A43;
+  --accent:#5BB8D6; --accent-soft:#17323C; --ok:#5FCB92; --ok-bg:#163626; --warn:#E7B256; --warn-bg:#3A2D14; --off:#A3B0B7; --off-bg:#22303A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F171B; --surface:#16222A; --ink:#E4ECEE; --muted:#93A3AB; --line:#2A3A43;
+  --accent:#5BB8D6; --accent-soft:#17323C; --ok:#5FCB92; --ok-bg:#163626; --warn:#E7B256; --warn-bg:#3A2D14; --off:#A3B0B7; --off-bg:#22303A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1040px;margin:0 auto;padding-inline:16px;padding-block:28px 64px;display:grid;gap:22px}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.15;text-wrap:balance}
+h1{font-size:clamp(28px,5vw,40px)}
+h3{font-size:17px}
+p{margin:0;max-width:70ch}
+a{color:var(--accent)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lede{color:var(--muted)}
+.head{display:grid;gap:10px}
+.strip{display:flex;flex-wrap:wrap;gap:10px}
+.stat{flex:1 1 140px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:2px}
+.stat b{font-family:var(--mono);font-size:24px;font-weight:500;font-variant-numeric:tabular-nums}
+.stat span{font-size:13px;color:var(--muted)}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line)}
+.tab{font:600 15px var(--body);background:none;border:0;border-bottom:2px solid transparent;padding:10px 14px;color:var(--muted);cursor:pointer}
+.tab[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent)}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:99px;padding:5px 12px;cursor:pointer}
+.chip.on{background:var(--ink);color:var(--surface);border-color:var(--ink)}
+.sep{width:1px;height:22px;background:var(--line)}
+input,select,textarea{font:400 14px var(--body);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;min-width:0}
+#q{flex:1 1 220px}
+.btn{font:500 13px var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:8px;padding:7px 12px;cursor:pointer;text-decoration:none;display:inline-flex;gap:6px;align-items:center}
+.btn:hover{border-color:var(--accent)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.btn:focus-visible,.chip:focus-visible,.tab:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.jobs{display:grid;gap:8px}
+.job{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:6px 16px;align-items:start;min-width:0}
+.job.closed{opacity:.6}
+.job .main{display:grid;gap:6px;min-width:0}
+.job .title{font-weight:600;font-size:16px;overflow-wrap:anywhere}
+.job .co{color:var(--muted);font-size:14px}
+.job .side{display:grid;gap:8px;justify-items:end;align-content:start}
+.date{font-family:var(--mono);font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;white-space:nowrap}
+.tags{display:flex;flex-wrap:wrap;gap:4px}
+.tag{font-size:12px;padding:2px 8px;border-radius:5px;background:var(--off-bg);color:var(--ink)}
+.tag.role{background:var(--accent-soft);color:var(--accent);font-family:var(--mono);font-size:11px}
+.note{font-size:13px;color:var(--muted)}
+.pay{display:grid;gap:5px;border-top:1px solid var(--line);padding-top:10px;margin-top:4px}
+.phead{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.prow{display:grid;grid-template-columns:150px 1fr;gap:10px;font-size:13px;align-items:baseline}
+.plabel{color:var(--muted)}
+.pval{display:flex;flex-wrap:wrap;gap:4px 8px;align-items:baseline;min-width:0}
+.pval b{font-weight:600;font-variant-numeric:tabular-nums}
+.psrc{font-size:12px;color:var(--muted)}
+a.psrc{color:var(--muted);text-decoration:underline;text-decoration-color:var(--line)}
+a.psrc:hover{color:var(--accent)}
+.pnone{color:var(--muted);font-style:italic}
+@media (max-width:560px){.prow{grid-template-columns:1fr;gap:0}}
+.pay .decl{font-size:14px}
+.pay .decl b{font-weight:600}
+.pay .nodecl{font-size:13px;color:var(--muted)}
+.refs{display:flex;flex-wrap:wrap;gap:6px}
+.ref{font-size:12px;border:1px solid var(--line);border-radius:6px;padding:3px 8px;color:var(--ink);text-decoration:none;display:inline-flex;gap:6px;align-items:baseline}
+.ref .src{font-family:var(--mono);font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted)}
+a.ref:hover{border-color:var(--accent)}
+details.bench{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px 16px}
+details.bench summary{cursor:pointer;font-weight:600}
+.tablewrap{overflow-x:auto;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--muted);font-weight:600}
+td.num{font-variant-numeric:tabular-nums;white-space:nowrap}
+.fine{font-size:12px;color:var(--muted);max-width:80ch}
+.status{font:500 12px var(--body);border-radius:99px;padding:3px 10px;white-space:nowrap;border:0}
+.status[data-s="ativa"]{background:var(--ok-bg);color:var(--ok)}
+.status[data-s="conferir"]{background:var(--warn-bg);color:var(--warn)}
+.status[data-s="encerrada"]{background:var(--off-bg);color:var(--off)}
+button.status{cursor:pointer}
+.cos{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:grid;gap:10px;align-content:start;min-width:0}
+.card .top{display:flex;justify-content:space-between;gap:8px;align-items:baseline;flex-wrap:wrap}
+.card p{font-size:14px;overflow-wrap:anywhere}
+.kv{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;font-size:13px}
+.kv dt{color:var(--muted)}
+.kv dd{margin:0;overflow-wrap:anywhere}
+.cat{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.actions{display:flex;flex-wrap:wrap;gap:6px}
+.empty{color:var(--muted);padding:12px 0}
+.howto{background:var(--accent-soft);border-radius:12px;padding:16px;display:grid;gap:8px}
+.howto ol{margin:0;padding-left:20px;display:grid;gap:6px;max-width:75ch}
+details.admin{background:var(--surface);border:1px dashed var(--line);border-radius:12px;padding:14px 16px}
+details.admin summary{cursor:pointer;font-weight:600}
+form.add{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:8px;margin-top:12px;align-items:end}
+label{display:grid;gap:4px;font-size:12px;color:var(--muted)}
+.msg{font-size:13px;color:var(--muted)}
+@media (max-width:560px){.job{grid-template-columns:1fr}.job .side{justify-items:start;grid-auto-flow:column;justify-content:start;align-items:center}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <header class="head">
+    <span class="eyebrow">Recolocação internacional · Projetos, Agilidade e Delivery</span>
+    <h1>Banco de Vagas Internacionais</h1>
+    <p class="lede">Vagas remotas abertas a profissionais no Brasil, a maioria para empresas e clientes dos EUA, e as empresas que mais contratam esse perfil a partir daqui. Cada vaga traz o link original e a data em que foi conferida.</p>
+  </header>
+
+  <div class="strip">
+    <div class="stat"><b id="s-jobs">0</b><span>vagas ativas</span></div>
+    <div class="stat"><b id="s-intl">0</b><span>para cliente internacional</span></div>
+    <div class="stat"><b id="s-cos">0</b><span>empresas no banco</span></div>
+    <div class="stat"><b id="s-date">–</b><span>última conferência</span></div>
+  </div>
+
+  <div class="tabs" role="tablist">
+    <button class="tab" role="tab" id="tab-vagas" aria-selected="true" aria-controls="p-vagas">Vagas</button>
+    <button class="tab" role="tab" id="tab-empresas" aria-selected="false" aria-controls="p-empresas">Empresas</button>
+  </div>
+
+  <section id="p-vagas" role="tabpanel" aria-labelledby="tab-vagas" style="display:grid;gap:14px">
+    <div class="bar" id="roleBar">
+      <button class="chip on" type="button" data-r="all" id="r-all">Todas</button>
+      <button class="chip" type="button" data-r="SM" id="r-sm">Scrum Master</button>
+      <button class="chip" type="button" data-r="AC" id="r-ac">Agile Coach</button>
+      <button class="chip" type="button" data-r="PM" id="r-pm">Project Manager</button>
+      <button class="chip" type="button" data-r="PGM" id="r-pgm">Program Manager</button>
+      <button class="chip" type="button" data-r="DM" id="r-dm">Delivery Manager</button>
+    </div>
+    <div class="bar">
+      <select id="mkt" aria-label="Mercado">
+        <option value="all">Todos os mercados</option>
+        <option value="intl" selected>Cliente internacional</option>
+        <option value="br">Mercado Brasil</option>
+      </select>
+      <label style="display:flex;align-items:center;gap:6px;font-size:13px;color:var(--ink)"><input type="checkbox" id="showClosed"> Mostrar encerradas</label>
+      <input id="q" type="search" placeholder="Buscar por cargo ou empresa" aria-label="Buscar vagas">
+    </div>
+    <details class="bench" id="benchBox">
+      <summary>Referências salariais por função (mercado Brasil)</summary>
+      <div class="tablewrap"><table><thead><tr><th>Função</th><th>Base mensal</th><th>Média base</th><th>Variável média</th><th>Fonte</th></tr></thead><tbody id="benchRows"></tbody></table></div>
+      <p class="fine" id="benchNote"></p>
+    </details>
+    <p class="msg" id="jobsMsg">Carregando vagas…</p>
+    <div class="jobs" id="jobs"></div>
+  </section>
+
+  <section id="p-empresas" role="tabpanel" aria-labelledby="tab-empresas" hidden style="gap:14px">
+    <div class="bar" id="catBar"></div>
+    <p class="msg" id="cosMsg">Carregando empresas…</p>
+    <div class="cos" id="cos"></div>
+  </section>
+
+  <section class="howto">
+    <h3>Como usar este banco</h3>
+    <ol>
+      <li><b>Confira a elegibilidade</b> no anúncio original: "LATAM" nem sempre inclui o Brasil, e algumas vagas pedem espanhol ou fuso europeu.</li>
+      <li><b>Candidate-se no site da empresa,</b> pelo link da vaga. Agregadores às vezes mostram vagas já encerradas.</li>
+      <li><b>Na aba Empresas,</b> use a busca de recrutadores para adicionar de 3 a 6 pessoas de cada empresa-alvo. Isso coloca você no alcance de busca delas no LinkedIn.</li>
+      <li><b>Datas importam:</b> vagas com mais de 30 dias costumam já estar em fase final. Priorize as mais recentes.</li>
+    </ol>
+  </section>
+
+  <details class="admin" id="admin" hidden>
+    <summary>Adicionar vaga (só editores veem isto)</summary>
+    <form class="add" id="addJob">
+      <label for="f-title">Cargo<input id="f-title" required></label>
+      <label for="f-company">Empresa<input id="f-company" required></label>
+      <label for="f-role">Função<select id="f-role"><option value="SM">Scrum Master</option><option value="AC">Agile Coach</option><option value="PM" selected>Project Manager</option><option value="PGM">Program Manager</option><option value="DM">Delivery Manager</option></select></label>
+      <label for="f-mkt">Mercado<select id="f-mkt"><option value="intl">Cliente internacional</option><option value="br">Mercado Brasil</option></select></label>
+      <label for="f-elig">Elegibilidade<input id="f-elig" placeholder="Brasil remoto, LATAM…"></label>
+      <label for="f-posted">Publicada em<input id="f-posted" type="date"></label>
+      <label for="f-url">Link original<input id="f-url" type="url" required></label>
+      <label for="f-salary">Faixa declarada<input id="f-salary" placeholder="Ex.: US$ 30 a 37/h"></label>
+      <label for="f-note">Observação<input id="f-note"></label>
+      <button class="btn primary" type="submit">Adicionar vaga</button>
+    </form>
+    <p class="msg" id="adminMsg"></p>
+  </details>
+</div>
+
+<script>
+const ROLE = {SM:"Scrum Master", AC:"Agile Coach", PM:"Project Manager", PGM:"Program Manager", DM:"Delivery Manager", RTE:"RTE"};
+const STATUS_LABEL = {ativa:"Ativa", conferir:"Conferir no site", encerrada:"Encerrada"};
+const NEXT = {ativa:"conferir", conferir:"encerrada", encerrada:"ativa"};
+const $ = s => document.querySelector(s);
+const el = (t,a={},...k)=>{const e=document.createElement(t);for(const[x,v]of Object.entries(a)){if(x==="class")e.className=v;else if(x==="text")e.textContent=v;else e.setAttribute(x,v)}k.forEach(c=>c&&e.append(c));return e};
+const fmt = d => { if(!d) return ""; const [y,m,dd]=d.split("-"); return dd+"/"+m+"/"+y; };
+const daysAgo = d => d ? Math.round((Date.now()-new Date(d+"T12:00:00").getTime())/864e5) : null;
+const liSearch = q => "https://www.linkedin.com/search/results/people/?keywords="+encodeURIComponent(q);
+
+let jobs=[], cos=[], bench=[], fx=null, role="all", cat="all", db=null, editor=false;
+
+function refEl(r){
+  const kids=[el("span",{class:"src",text:r.source}), el("span",{text:r.label+": "+r.value+(r.n?" ("+r.n+" relatos)":"")})];
+  const e = r.url ? el("a",{class:"ref",href:r.url,target:"_blank",rel:"noopener"}) : el("span",{class:"ref"});
+  kids.forEach(k=>e.append(k)); return e;
+}
+function benchRow(label, b, empty){
+  const row=el("div",{class:"prow"}, el("span",{class:"plabel",text:label}));
+  const val=el("span",{class:"pval"});
+  if(b){
+    val.append(el("b",{text:b.value}));
+    if(b.brl) val.append(document.createTextNode(" · "+b.brl));
+    const meta=[b.title, b.src+(b.n?", "+b.n+" relatos":"")].filter(Boolean).join(" · ");
+    const m = b.url ? el("a",{class:"psrc",href:b.url,target:"_blank",rel:"noopener",text:meta}) : el("span",{class:"psrc",text:meta});
+    val.append(m);
+  } else val.append(el("span",{class:"pnone",text:empty}));
+  row.append(val); return row;
+}
+function payBlock(j){
+  const b=j.bench||{};
+  const box=el("div",{class:"pay"}, el("span",{class:"phead",text:"Referência salarial"}));
+  box.append(benchRow("Anúncio", j.salary?{value:j.salary, brl:j.salaryBRL||"", src:"declarado pela empresa"}:null, "Faixa não declarada"));
+  box.append(benchRow("Cargo no Brasil", b.pos, "Sem referência pública"));
+  box.append(benchRow("Mesma empresa", b.co, "Sem dados públicos desta empresa"));
+  box.append(benchRow("Mesmo cargo nos EUA", b.us, j.market==="br"?"Não se aplica, vaga do mercado brasileiro":"Sem referência"));
+  return box;
+}
+function renderBench(){
+  const body=$("#benchRows"); body.replaceChildren();
+  bench.slice().sort((a,b)=>(a.order||9)-(b.order||9)).forEach(b=>{
+    const src=el("td"); src.append(b.url?el("a",{href:b.url,target:"_blank",rel:"noopener",text:b.source}):document.createTextNode(b.source||""));
+    body.append(el("tr",{}, el("td",{text:ROLE[b.id]||b.id}), el("td",{class:"num",text:b.range}), el("td",{class:"num",text:b.avg}), el("td",{class:"num",text:b.variable||"–"}), src));
+  });
+  $("#benchNote").textContent = "Médias autodeclaradas no Glassdoor Brasil, salário base mensal, conferidas em 12/10/2026. Nos cards, a linha Mesmo cargo nos EUA mostra o que ganha quem mora lá: serve de teto, não de expectativa para quem trabalha daqui. Vagas CLT e contratos em dólar não se comparam direto: contrato não tem 13º, férias pagas nem FGTS, então precisa pagar mais para empatar."+(fx?" Conversões usam US$ 1 = R$ "+String(fx.usdbrl).replace(".",",")+" ("+fmt(fx.date)+") e 160 horas por mês.":"");
+}
+
+function renderJobs(){
+  const q = $("#q").value.trim().toLowerCase(), mkt=$("#mkt").value, showClosed=$("#showClosed").checked;
+  const active = jobs.filter(j=>j.status!=="encerrada");
+  $("#s-jobs").textContent = active.length;
+  $("#s-intl").textContent = active.filter(j=>j.market==="intl").length;
+  const latest = jobs.map(j=>j.checkedAt).filter(Boolean).sort().pop();
+  $("#s-date").textContent = latest ? fmt(latest) : "–";
+  const list = jobs.filter(j => (role==="all"||j.role===role) && (mkt==="all"||j.market===mkt) && (showClosed||j.status!=="encerrada") &&
+    (!q || (j.title+" "+j.company).toLowerCase().includes(q)))
+    .sort((a,b)=>(a.status==="encerrada")-(b.status==="encerrada") || (b.posted||"").localeCompare(a.posted||""));
+  const box=$("#jobs"); box.replaceChildren();
+  $("#jobsMsg").textContent = !db ? "Não foi possível abrir os dados nesta visualização. Entre na sua conta para ver o banco." : (jobs.length ? (list.length ? list.length+" vaga(s) com esses filtros." : "Nenhuma vaga com esses filtros.") : "O banco ainda está vazio.");
+  list.forEach(j=>{
+    const tags=el("div",{class:"tags"}, el("span",{class:"tag role",text:ROLE[j.role]||j.role}));
+    [j.elig, j.contract, j.english, j.seniority].filter(Boolean).forEach(t=>tags.append(el("span",{class:"tag",text:t})));
+    const main=el("div",{class:"main"}, el("span",{class:"title",text:j.title}), el("span",{class:"co",text:j.company+(j.market==="br"?" · mercado Brasil":"")}), tags);
+    if(j.note) main.append(el("p",{class:"note",text:j.note}));
+    main.append(payBlock(j));
+    const d=daysAgo(j.posted);
+    const side=el("div",{class:"side"});
+    let st;
+    if(editor){ st=el("button",{class:"status",type:"button","data-s":j.status||"ativa",text:STATUS_LABEL[j.status||"ativa"],title:"Mudar status"}); st.addEventListener("click",()=>cycle(j)); }
+    else st=el("span",{class:"status","data-s":j.status||"ativa",text:STATUS_LABEL[j.status||"ativa"]});
+    side.append(st);
+    if(j.posted) side.append(el("span",{class:"date",text:"publicada "+fmt(j.posted)+(d!=null&&d>=0?" · "+d+"d":"")}));
+    if(j.url) side.append(el("a",{class:"btn",href:j.url,target:"_blank",rel:"noopener",text:"Ver vaga"}));
+    box.append(el("article",{class:"job"+(j.status==="encerrada"?" closed":"")}, main, side));
+  });
+}
+
+function renderCos(){
+  $("#s-cos").textContent = cos.length;
+  const cats=["all",...new Set(cos.map(c=>c.category).filter(Boolean))];
+  const bar=$("#catBar"); bar.replaceChildren();
+  cats.forEach((c,i)=>{const b=el("button",{class:"chip"+(c===cat?" on":""),type:"button",id:"cat-"+i,text:c==="all"?"Todas":c}); b.addEventListener("click",()=>{cat=c;renderCos()}); bar.append(b);});
+  const list=cos.filter(c=>cat==="all"||c.category===cat).sort((a,b)=>(a.order||99)-(b.order||99));
+  const box=$("#cos"); box.replaceChildren();
+  $("#cosMsg").textContent = !db ? "" : (cos.length ? list.length+" empresa(s)." : "O banco de empresas ainda está vazio.");
+  const openByCo={}; jobs.filter(j=>j.status!=="encerrada").forEach(j=>openByCo[j.companyId]=(openByCo[j.companyId]||0)+1);
+  list.forEach(c=>{
+    const top=el("div",{class:"top"}, el("h3",{text:c.name}), el("span",{class:"cat",text:c.category||""}));
+    const kv=el("dl",{class:"kv"});
+    [["Sede",c.hq],["Porte",c.size],["Contrata",c.hires],["Modelo",c.model],["Funções",(c.roles||[]).map(r=>ROLE[r]||r).join(", ")],["Vagas no banco",openByCo[c.id]?String(openByCo[c.id]):""]]
+      .filter(x=>x[1]).forEach(([k,v])=>{kv.append(el("dt",{text:k}),el("dd",{text:v}))});
+    const acts=el("div",{class:"actions"});
+    if(c.careersUrl) acts.append(el("a",{class:"btn primary",href:c.careersUrl,target:"_blank",rel:"noopener",text:"Página de vagas"}));
+    acts.append(el("a",{class:"btn",href:liSearch(c.name+" recruiter "+(c.recruiterHint||"LATAM")),target:"_blank",rel:"noopener",text:"Buscar recrutadores"}));
+    const card=el("article",{class:"card"}, top);
+    if(c.why) card.append(el("p",{text:c.why}));
+    card.append(kv, acts);
+    box.append(card);
+  });
+}
+
+async function cycle(j){ try{ await db.doc("jobs/"+j.id).update({status:NEXT[j.status||"ativa"], checkedAt:new Date().toISOString().slice(0,10)}); }catch(e){ $("#jobsMsg").textContent="Não salvou. Tente de novo."; } }
+
+function selectTab(name){
+  const v=name==="vagas";
+  $("#tab-vagas").setAttribute("aria-selected",v); $("#tab-empresas").setAttribute("aria-selected",!v);
+  $("#p-vagas").hidden=!v; $("#p-empresas").hidden=v; $("#p-empresas").style.display=v?"none":"grid";
+}
+$("#tab-vagas").addEventListener("click",()=>selectTab("vagas"));
+$("#tab-empresas").addEventListener("click",()=>selectTab("empresas"));
+if(location.hash==="#empresas") selectTab("empresas");
+document.querySelectorAll("#roleBar .chip").forEach(b=>b.addEventListener("click",()=>{role=b.dataset.r;document.querySelectorAll("#roleBar .chip").forEach(x=>x.classList.toggle("on",x===b));renderJobs()}));
+["#mkt","#showClosed"].forEach(s=>$(s).addEventListener("change",renderJobs));
+$("#q").addEventListener("input",renderJobs);
+
+$("#addJob").addEventListener("submit", async e=>{
+  e.preventDefault();
+  const company=$("#f-company").value.trim();
+  const match=cos.find(c=>c.name.toLowerCase()===company.toLowerCase());
+  try{
+    await db.collection("jobs").add({title:$("#f-title").value.trim(), company, companyId:match?match.id:"", role:$("#f-role").value, market:$("#f-mkt").value,
+      elig:$("#f-elig").value.trim(), posted:$("#f-posted").value||"", url:$("#f-url").value.trim(), note:$("#f-note").value.trim(), salary:$("#f-salary").value.trim(), status:"ativa", checkedAt:new Date().toISOString().slice(0,10)});
+    e.target.reset(); $("#adminMsg").textContent="Vaga adicionada.";
+  }catch(err){ $("#adminMsg").textContent = err&&err.code==="invalid_argument" ? "Você não tem permissão para editar este banco." : "Não salvou. Tente de novo."; }
+});
+
+(async()=>{
+  const C=window.claude;
+  db = C ? await C.use("db") : null;
+  if(!db){ renderJobs(); renderCos(); return; }
+  const user = await C.use("user");
+  editor = user ? await user.canEdit() : false;
+  $("#admin").hidden = !editor;
+  db.collection("jobs").onSnapshot(s=>{jobs=s.docs.map(d=>({id:d.id,...d.data()}));renderJobs();renderCos();},()=>{$("#jobsMsg").textContent="As vagas pararam de atualizar. Recarregue a página.";});
+  db.collection("companies").onSnapshot(s=>{cos=s.docs.map(d=>({id:d.id,...d.data()}));renderCos();},()=>{});
+  db.collection("benchmarks").onSnapshot(s=>{bench=s.docs.map(d=>({id:d.id,...d.data()}));renderBench();renderJobs();},()=>{});
+  db.doc("meta/fx").onSnapshot(s=>{fx=s.exists?s.data():null;renderBench();},()=>{});
+})();
+</script>

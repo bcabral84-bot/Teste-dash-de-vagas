@@ -1,0 +1,493 @@
+{
+ "nota": "Decisões de curadoria que valem para todas as coletas. excluir: chaves que não devem voltar como candidatas. empresas: mercado de empresas que não estão na base. editar: ajustes por chave aplicados ao montar o lote.",
+ "excluir": {
+  "0d65d1566801": {
+   "title": "Especialista em Projetos",
+   "company": "Agro Serra",
+   "motivo": "Projetos de agronegócio, fora de tecnologia"
+  },
+  "ccc3db0f0d16": {
+   "title": "Recruta Smart | Especialista de Projetos de Arquitetura",
+   "company": "Método Grupo",
+   "motivo": "Projetos de arquitetura e construção"
+  },
+  "32e7febb9183": {
+   "title": "Protected Species Services - Project Manager",
+   "company": "Edge Engineering & Science",
+   "motivo": "Projeto ambiental, fora de tecnologia"
+  },
+  "f88b8afc40dc": {
+   "title": "Senior Biometrics Project Manager - Latin America",
+   "company": "Bioforum",
+   "motivo": "Projeto clínico (bioestatística)"
+  },
+  "514a7cdf86e7": {
+   "title": "Regional HR Service Delivery Manager (LATAM)",
+   "company": "Globalli",
+   "motivo": "Delivery de RH"
+  },
+  "ba8692103a7f": {
+   "title": "IT Project and Delivery Manager (4797)",
+   "company": "Keep Simple",
+   "motivo": "Duplicata de j22 (Keep IT Simple)"
+  },
+  "b555d9fcb7fe": {
+   "title": "Delivery Lead PL/SR",
+   "company": "Grupo SysMap",
+   "motivo": "Duplicata de j21 (SysMap)"
+  },
+  "08add68423f7": {
+   "title": "FBS Data Program Manager",
+   "company": "Capgemini",
+   "motivo": "Provável duplicata de j06 (Capgemini Data Program Manager)"
+  },
+  "1d7c104be86a": {
+   "title": "Project Manager (Software Development) - Latin America, Remote",
+   "company": "Bluelight Consulting",
+   "motivo": "Duplicata de j05 (Bluelight)"
+  },
+  "0f3e470b4b49": {
+   "title": "Project Manager - Remote, Latin America",
+   "company": "Bluelight Consulting",
+   "motivo": "Duplicata de j05 (Bluelight), repostagem"
+  }
+ },
+ "empresas": {
+  "Itix": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Jusbrasil": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Looqbox": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Atento": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Asaas": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "LUZA Group": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Pagaleve": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Grupo SysMap": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Cadastra": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Mutant": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Keep Simple": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Certsys": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "MIGNOW": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Grupo Boticário": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Pulsus": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Quality Digital": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "SoftExpert": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "La Moda": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Sensedia": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Grupo OLX": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Ambev Tech": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Effecti": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Agro Serra": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Método Grupo": {
+   "market": "br",
+   "markets": [
+    "Brasil"
+   ]
+  },
+  "Scandiweb": {
+   "market": "intl",
+   "markets": [
+    "Europa"
+   ]
+  },
+  "Interlead": {
+   "market": "intl",
+   "markets": [
+    "Europa"
+   ]
+  },
+  "AB InBev": {
+   "market": "intl",
+   "markets": [
+    "Europa"
+   ]
+  },
+  "Purolabs": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "OneClick Data, Inc.": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Coconut": {
+   "market": "intl",
+   "markets": [
+    "Global"
+   ]
+  },
+  "M3 USA": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Learntastic": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Express Chipping": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Trafilea": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Globalli": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "OKX": {
+   "market": "intl",
+   "markets": [
+    "Global"
+   ]
+  },
+  "Alpaca": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Nexstar Media Group, Inc.": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Rumor Avenue": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Able": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Shift Markets": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Plan Left": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Safeguard Global": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Openfx": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Nacre Capital": {
+   "market": "intl",
+   "markets": [
+    "Global"
+   ]
+  },
+  "Wikimedia Foundation": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Customer.io": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Partyhat": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Sezzle": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Hairball.IO": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Improvado": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "InEvent": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Wellhub": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "EdgeUno": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Edge Engineering & Science": {
+   "market": "intl",
+   "markets": [
+    "EUA"
+   ]
+  },
+  "Bioforum": {
+   "market": "intl",
+   "markets": [
+    "Europa"
+   ]
+  }
+ },
+ "editar": {
+  "3fd1b7e3828e": {
+   "title": "Salesforce Implementation Project Manager",
+   "note": "Faixa declarada no anúncio. Só para quem está na América Latina."
+  },
+  "9a915fe31962": {
+   "fit": "média",
+   "note": "Implantação de monday.com para clientes. Vista em agregador."
+  },
+  "6d3d3d5a73c1": {
+   "fit": "média"
+  },
+  "cbf17911a130": {
+   "url": "https://apply.workable.com/j/C65607401E",
+   "origin": "empresa",
+   "source": "workable",
+   "status": "ativa",
+   "posted": "2026-10-07",
+   "title": "Delivery Director (OP01904)",
+   "seniority": "Diretoria",
+   "note": "Remoto a partir de São Paulo, Buenos Aires ou Bogotá."
+  },
+  "32cb418af6fd": {
+   "url": "https://apply.workable.com/j/190D03F605",
+   "origin": "empresa",
+   "source": "workable",
+   "status": "ativa",
+   "posted": "2026-10-05",
+   "title": "Senior Program Manager (OP02221)",
+   "note": "Remoto a partir de São Paulo, Buenos Aires ou Bogotá."
+  },
+  "0318a78dffd8": {
+   "market": "br",
+   "region": [
+    "Brasil"
+   ],
+   "note": "Projeto de reforma tributária brasileira. Híbrido em São Paulo ou Rio de Janeiro."
+  },
+  "b1affd339de0": {
+   "elig": "Brasil (São Paulo ou Campinas)",
+   "note": "Só para quem mora em São Paulo ou Campinas."
+  },
+  "51bdc402c654": {
+   "note": "Anúncio permanente da Canonical, publicado em 2024. Confirme se ainda recebe candidaturas."
+  },
+  "d6bc60df14b4": {
+   "note": "Anúncio permanente da Canonical, publicado em 2022. Confirme se ainda recebe candidaturas."
+  },
+  "08eeb8ee5802": {
+   "note": "Anúncio permanente da Canonical, publicado em 2021. Confirme se ainda recebe candidaturas."
+  },
+  "1310bfaaf3ef": {
+   "note": "Anúncio antigo que segue no quadro oficial. Confirme antes de se candidatar."
+  },
+  "0261cc76464d": {
+   "note": "Pede experiência com Adobe Experience Manager."
+  },
+  "d5308442c281": {
+   "note": "Mistura análise de negócios com liderança de projeto."
+  },
+  "329610bec4cc": {
+   "note": "Título duplo: programa técnico ou produto, em mídia digital."
+  },
+  "c77636cb5c73": {
+   "note": "Squad Leader com foco em entrega com IA."
+  },
+  "4ff53626ee85": {
+   "note": "Projetos SAP."
+  },
+  "fd67aa14b8c8": {
+   "note": "Projetos SAP."
+  },
+  "fbe26e388d50": {
+   "note": "Projetos de e-commerce na plataforma VTEX."
+  },
+  "63fae7a45a90": {
+   "note": "Projetos Salesforce para associações americanas."
+  },
+  "52978edaff1a": {
+   "note": "Projetos de tradução para pesquisa de mercado, horário dos EUA."
+  },
+  "597b8ece3c0f": {
+   "note": "Pesquisa de mercado quantitativa, horário dos EUA."
+  },
+  "cf865f19b854": {
+   "note": "Pesquisa de mercado qualitativa."
+  },
+  "7bbc70619ac8": {
+   "note": "Pesquisa de mercado qualitativa."
+  },
+  "9ee3539d741b": {
+   "note": "Meio período. Mistura Product Owner com desenvolvimento no Lovable."
+  },
+  "a3b9cbce9612": {
+   "note": "Faixa declarada no anúncio. Marca americana de ferramentas, venda direta."
+  },
+  "1d4815f4e050": {
+   "note": "Mercado local e crescimento na América Latina, empresa de cripto."
+  }
+ }
+}
