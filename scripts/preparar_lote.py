@@ -33,7 +33,7 @@ def main():
     a = ap.parse_args()
     cands = load("out/candidatas.json", [])
     aj = load("data/ajustes.json", {"excluir": {}, "empresas": {}, "editar": {}})
-    base = {e["id"]: e for e in load("data/empresas.json", [])}
+    base = {e["id"]: e for e in (load("out/empresas_base.json") or load("data/empresas.json", []))}
     os.makedirs(os.path.join(LOTE, "jobs"), exist_ok=True)
     for f in os.listdir(os.path.join(LOTE, "jobs")):
         os.remove(os.path.join(LOTE, "jobs", f))

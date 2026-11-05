@@ -2,6 +2,8 @@
 
 Este arquivo é a instrução que a varredura automática segue. Ela roda nos dias úteis às 6h51 (horário de Brasília), numa sessão nova do Claude Code, a partir deste repositório. Leia tudo antes de começar.
 
+**O repositório é só leitura para a rotina.** Não faça commit nem push: a sessão da rotina não tem permissão de escrita no GitHub, e não precisa. Tudo o que muda (vagas, empresas, curadoria, termômetro) fica no banco da página.
+
 - Página: https://claude.ai/artifact/WDrJso7tYKhUayddT4fV49 (privada, do dono da conta)
 - Banco da página: coleções `jobs`, `companies`, `benchmarks`, `meta` (docs `fx`, `termometro`, `coleta`, `ajustes`) e `data/users/<id>` (área privada de cada pessoa: nunca leia, escreva ou apague nada ali)
 - Especificação completa: `docs/especificacao.md`
@@ -14,22 +16,23 @@ Este arquivo é a instrução que a varredura automática segue. Ela roda nos di
 4. Não registre nome de pessoa nenhuma no banco compartilhado.
 5. Não mude o HTML da página nem as regras de acesso. Isso só com pedido do dono.
 6. Toda escrita em documento que já existe leva `if_version` com a versão lida.
+7. Nunca rode `git commit` nem `git push`.
 
 ## Passo a passo
 
 ### 1. Preparar
 
 ```bash
-git pull --ff-only
 mkdir -p /tmp/banco && rm -rf /tmp/banco/*
 ```
 
 Exporte do banco com `ArtifactData` `list`, `query.limit` 1000, `out_dir` `/tmp/banco`:
 
 - coleção `jobs`: guarde a lista de versões que a resposta mostra (uma linha por documento, "version N"), você vai precisar dela no passo 5;
+- coleção `companies`: o coletor junta com `data/empresas.json` as empresas que só existem no banco;
 - coleção `meta`: traz `meta/ajustes` (a curadoria guardada no banco) e as versões de `termometro`, `coleta` e `ajustes`.
 
-Depois una a curadoria do banco com a do repositório:
+Depois una a curadoria do banco com a do repositório (só no clone local, sem commit):
 
 ```bash
 python3 scripts/mesclar_ajustes.py /tmp/banco
@@ -41,7 +44,7 @@ python3 scripts/mesclar_ajustes.py /tmp/banco
 python3 scripts/coletor.py --banco /tmp/banco
 ```
 
-O coletor lê os quadros oficiais das empresas de `data/empresas.json` (Greenhouse, Lever, Ashby, SmartRecruiters, Recruitee, Teamtailor) e a busca do Himalayas restrita ao Brasil, para as funções de `data/funcoes.json`. Saídas em `out/`:
+O coletor lê os quadros oficiais das empresas de `data/empresas.json` e da coleção `companies` do banco (Greenhouse, Lever, Ashby, SmartRecruiters, Recruitee, Teamtailor) e a busca do Himalayas restrita ao Brasil, para as funções de `data/funcoes.json`. Saídas em `out/`:
 
 - `relatorio.txt`: resumo
 - `candidatas.json`: vagas que não estão no banco
@@ -84,8 +87,8 @@ Monte os dois documentos e grave com `set` e `if_version` (leia antes com `get`)
 
 ### 7. Toda segunda-feira
 
-- **Empresas novas**: olhe `out/empresas_sem_cadastro.json`. Entra na base quem faz outsourcing, nearshore, staffing, consultoria ou rede de talentos para clientes dos EUA ou da Europa e tem pelo menos 2 vagas abertas ao Brasil no Himalayas (`https://himalayas.app/jobs/api/search?company=<slug>&country=BR&exclude_worldwide=true`). Para cada uma: acrescente em `data/empresas.json` (mesmos campos das outras, com `him` e `boards` quando houver quadro público) e grave em `companies/<id>` com os campos que a página usa: `name, category, markets, hq, size, hires, model, roles, careersUrl, why, market`. A frase `why` é factual e cita a evidência com data.
-- **Câmbio**: confira o dólar comercial do dia. Se variar mais de 3% contra `meta/fx`, atualize `meta/fx` e `data/meta.json` e avise no relatório que as conversões antigas ficaram defasadas.
+- **Empresas novas**: olhe `out/empresas_sem_cadastro.json`. Entra na base quem faz outsourcing, nearshore, staffing, consultoria ou rede de talentos para clientes dos EUA ou da Europa e tem pelo menos 2 vagas abertas ao Brasil no Himalayas (`https://himalayas.app/jobs/api/search?company=<slug>&country=BR&exclude_worldwide=true`). Para cada uma, grave em `companies/<id>` os campos que a página usa (`name, category, markets, hq, size, hires, model, roles, careersUrl, why, market`) e os que o coletor usa (`him`, o slug do Himalayas, e `boards`, a lista de quadros públicos no formato `{"ats": "...", "slug": "..."}`, quando houver). A frase `why` é factual e cita a evidência com data. Não mexa em `data/empresas.json`.
+- **Câmbio**: confira o dólar comercial do dia. Se variar mais de 3% contra `meta/fx`, atualize `meta/fx` e avise no relatório que as conversões antigas ficaram defasadas.
 
 ### 8. Primeira segunda-feira do mês
 
@@ -93,15 +96,7 @@ Revise as referências salariais (`data/referencias.json` e coleção `benchmark
 
 ### 9. Salvar a curadoria
 
-Sempre grave `data/ajustes.json` inteiro em `meta/ajustes` com `set` e o `if_version` do passo 1 (sem versão se o documento ainda não existir). É assim que as exclusões chegam à próxima varredura mesmo se o push falhar.
-
-Depois tente salvar no repositório também:
-
-```bash
-git add data/ && git commit -m "Varredura <AAAA-MM-DD>: <n> novas, <m> encerradas" && git push origin HEAD
-```
-
-Se o push for recusado, siga em frente e cite isso no relatório. Mudanças em `data/empresas.json` só ficam salvas com o push: nesse caso liste no relatório as empresas que entraram, para o dono incluir depois.
+Grave `data/ajustes.json` inteiro em `meta/ajustes` com `set` e o `if_version` do passo 1. É assim que as exclusões e classificações chegam à próxima varredura. Não faça commit nem push: o clone some quando a sessão termina e está tudo certo assim.
 
 ### 10. Relatório final
 

@@ -446,13 +446,30 @@ def termometro(fontes):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--banco", help="pasta com o export do banco (jobs/*.json)")
+    ap.add_argument("--banco", help="pasta com o export do banco (jobs/, companies/ e meta/ do ArtifactData)")
     ap.add_argument("--so-fontes", action="store_true")
     ap.add_argument("--so-himalayas", action="store_true")
     a = ap.parse_args()
     os.makedirs(OUT, exist_ok=True)
 
     fontes = load("empresas.json", [])
+    # empresas que a rotina gravou só no banco (sem push no git) entram também
+    if a.banco:
+        ids = {c["id"] for c in fontes}
+        for p in glob.glob(os.path.join(a.banco, "companies", "*.json")):
+            try:
+                d = json.load(open(p, encoding="utf-8"))
+            except Exception:
+                continue
+            doc = d.get("data", d)
+            cid = d.get("id") or os.path.splitext(os.path.basename(p))[0]
+            if cid in ids or not doc.get("name"):
+                continue
+            fontes.append({"id": cid, "name": doc["name"], "market": doc.get("market", "intl"),
+                           "markets": doc.get("markets", []), "boards": doc.get("boards", []),
+                           "him": doc.get("him", ""), "aliases": doc.get("aliases", [])})
+            ids.add(cid)
+    json.dump(fontes, open(os.path.join(OUT, "empresas_base.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     by_name = {norm(c["name"]): c for c in fontes}
     for c in fontes:
         for alias in c.get("aliases", []):

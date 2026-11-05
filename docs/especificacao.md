@@ -134,11 +134,11 @@ Calculada pelo coletor (`data/funcoes.json`) e ajustável na curadoria (`data/aj
 
 **`benchmarks/<função>`**: `range, avg, variable, source, url, order`.
 
-**`meta/fx`**: `usdbrl, date, source`. **`meta/termometro`**: `at, companies{<id>: {brJobs, oficial, himalayas}}`. **`meta/coleta`**: `date, novas, vistas, oficial, agregador, encerradas, atualizadas, fontes`. **`meta/ajustes`**: cópia de `data/ajustes.json` (curadoria), para a rotina não depender do push no git.
+**`meta/fx`**: `usdbrl, date, source`. **`meta/termometro`**: `at, companies{<id>: {brJobs, oficial, himalayas}}`. **`meta/coleta`**: `date, novas, vistas, oficial, agregador, encerradas, atualizadas, fontes`. **`meta/ajustes`**: curadoria da rotina (exclusões, mercado de empresas, edições). É a fonte da verdade; `data/ajustes.json` no repositório é só uma cópia antiga que a rotina une a ela.
 
 **`data/users/<id>/job_<jobId>`**: `stage, at`. **`data/users/<id>/co_<companyId>`**: `list, prio ("A" ou "B"), slots{rec,ta,del,pmo,par: {status, name, url, at}}, at`. Ninguém além da própria pessoa lê isso, nem o dono da página.
 
-Base local no repositório: `data/empresas.json` (empresas, com `boards` dos quadros públicos, `him` do Himalayas e `aliases`), `data/funcoes.json`, `data/referencias.json`, `data/meta.json`, `data/ajustes.json` (curadoria).
+Base local no repositório: `data/empresas.json` (as 90 empresas iniciais, com `boards` dos quadros públicos, `him` do Himalayas e `aliases`; empresas novas ficam só na coleção `companies`, com os mesmos campos), `data/funcoes.json`, `data/referencias.json`, `data/meta.json`, `data/ajustes.json` (curadoria).
 
 ### 2.7 Permissões e privacidade
 
